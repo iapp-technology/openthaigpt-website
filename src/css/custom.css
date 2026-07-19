@@ -1,0 +1,229 @@
+/**
+ * OpenThaiGPT documentation theme.
+ *
+ * Design tokens are drawn from the OpenThaiGPT brand: the royal-blue
+ * wordmark and neural-graph logo, the indigo→violet poster gradient with
+ * its warm orange accent, and modern loopless Thai type (IBM Plex Sans Thai).
+ */
+
+@import '@fontsource/ibm-plex-sans-thai/400.css';
+@import '@fontsource/ibm-plex-sans-thai/500.css';
+@import '@fontsource/ibm-plex-sans-thai/600.css';
+@import '@fontsource/ibm-plex-sans-thai/700.css';
+@import '@fontsource/ibm-plex-sans/400.css';
+@import '@fontsource/ibm-plex-sans/500.css';
+@import '@fontsource/ibm-plex-sans/600.css';
+@import '@fontsource/ibm-plex-sans/700.css';
+
+:root {
+  /* Brand */
+  --otg-navy: #14224e;
+  --otg-orange: #f5921e;
+  --otg-violet: #7b3fa9;
+  --otg-gradient: linear-gradient(
+    90deg,
+    #2452c8 0%,
+    var(--otg-violet) 60%,
+    var(--otg-orange) 100%
+  );
+
+  /* Infima */
+  --ifm-color-primary: #2452c8;
+  --ifm-color-primary-dark: #2049b4;
+  --ifm-color-primary-darker: #1e45aa;
+  --ifm-color-primary-darkest: #19398c;
+  --ifm-color-primary-light: #3560d2;
+  --ifm-color-primary-lighter: #4169d5;
+  --ifm-color-primary-lightest: #6486dd;
+
+  --ifm-font-family-base: 'IBM Plex Sans Thai', 'IBM Plex Sans', system-ui,
+    -apple-system, 'Segoe UI', Roboto, 'Noto Sans Thai', sans-serif;
+  /* Thai script needs generous line height for stacked vowels/tone marks */
+  --ifm-line-height-base: 1.75;
+  --ifm-heading-line-height: 1.45;
+  --ifm-heading-color: var(--otg-navy);
+  --ifm-heading-font-weight: 600;
+  --ifm-code-font-size: 90%;
+  --ifm-navbar-shadow: 0 1px 6px rgb(20 34 78 / 8%);
+
+  --docusaurus-highlighted-code-line-bg: rgb(36 82 200 / 10%);
+}
+
+[data-theme='dark'] {
+  /* Deep indigo night, from the brand poster background */
+  --ifm-background-color: #0e1330;
+  --ifm-background-surface-color: #161d44;
+  --ifm-color-primary: #8ca6ff;
+  --ifm-color-primary-dark: #6c8dff;
+  --ifm-color-primary-darker: #5c81ff;
+  --ifm-color-primary-darkest: #2c5bff;
+  --ifm-color-primary-light: #acbfff;
+  --ifm-color-primary-lighter: #bccbff;
+  --ifm-color-primary-lightest: #ecf0ff;
+  --ifm-heading-color: #e8ecff;
+  --ifm-navbar-shadow: 0 1px 6px rgb(0 0 0 / 40%);
+
+  --docusaurus-highlighted-code-line-bg: rgb(140 166 255 / 12%);
+}
+
+/* ------------------------------------------------------------------ */
+/* Signature: brand-gradient hairline under the navbar                */
+/* ------------------------------------------------------------------ */
+
+.navbar {
+  position: relative;
+}
+
+.navbar::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 3px;
+  background: var(--otg-gradient);
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.navbar__logo img {
+  border-radius: 6px;
+}
+
+/* Announcement bar link picks up the brand's warm accent */
+div[class^='announcementBar'] a {
+  color: var(--otg-orange);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+div[class^='announcementBar'] a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------ */
+/* Content typography and imagery                                     */
+/* ------------------------------------------------------------------ */
+
+.markdown h1:first-child {
+  font-size: 2.2rem;
+}
+
+.markdown img {
+  border-radius: 10px;
+}
+
+.markdown figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.markdown figure img {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgb(20 34 78 / 10%);
+}
+
+.markdown figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* GitBook exports use <mark style="color:blue;"> for emphasis */
+.markdown mark {
+  background: rgb(36 82 200 / 10%);
+  border-radius: 4px;
+  padding: 0.05em 0.3em;
+}
+
+[data-theme='dark'] .markdown mark {
+  background: rgb(140 166 255 / 15%);
+  color: var(--ifm-color-primary) !important;
+}
+
+.markdown table th {
+  background: rgb(36 82 200 / 6%);
+}
+
+[data-theme='dark'] .markdown table th {
+  background: rgb(140 166 255 / 10%);
+}
+
+/* ------------------------------------------------------------------ */
+/* Converted GitBook embeds                                           */
+/* ------------------------------------------------------------------ */
+
+.video-embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgb(20 34 78 / 12%);
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  margin: 1rem 0;
+  padding: 0.85rem 1.15rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.link-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 14px rgb(36 82 200 / 15%);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.link-card-title {
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+}
+
+.link-card-domain {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.link-card-domain::after {
+  content: ' ↗';
+}
+
+/* ------------------------------------------------------------------ */
+/* Navigation                                                         */
+/* ------------------------------------------------------------------ */
+
+.menu__link {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 600;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #101b3f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link-card {
+    transition: none;
+  }
+}
