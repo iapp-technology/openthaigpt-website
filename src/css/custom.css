@@ -87,8 +87,15 @@
   letter-spacing: -0.01em;
 }
 
+/* The mark is dark navy on transparency, so it needs a white plate to stay
+   legible against the dark navbar. */
 .navbar__logo img {
-  border-radius: 6px;
+  height: 100%;
+  width: auto;
+  box-sizing: border-box;
+  background: #ffffff;
+  padding: 3px 6px;
+  border-radius: 7px;
 }
 
 /* Announcement bar link picks up the brand's warm accent */
