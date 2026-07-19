@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "OpenThaiGPT",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "OpenThaiGPT",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Hugging Face": {
+    "message": "Hugging Face",
+    "description": "Navbar item with label Hugging Face"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

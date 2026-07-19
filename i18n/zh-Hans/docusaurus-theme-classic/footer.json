@@ -1,0 +1,50 @@
+{
+  "link.title.เอกสาร": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=เอกสาร in the footer"
+  },
+  "link.title.ชุมชน": {
+    "message": "社区",
+    "description": "The title of the footer links column with title=ชุมชน in the footer"
+  },
+  "link.title.องค์กร": {
+    "message": "组织",
+    "description": "The title of the footer links column with title=องค์กร in the footer"
+  },
+  "link.item.label.หน้าแรก": {
+    "message": "首页",
+    "description": "The label of footer link with label=หน้าแรก linking to /"
+  },
+  "link.item.label.OpenThaiRAG": {
+    "message": "OpenThaiRAG",
+    "description": "The label of footer link with label=OpenThaiRAG linking to /openthairag"
+  },
+  "link.item.label.Colab Demo": {
+    "message": "Colab Demo",
+    "description": "The label of footer link with label=Colab Demo linking to /colab-demo"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/CyJPrkZ2Ku"
+  },
+  "link.item.label.Facebook Group": {
+    "message": "Facebook Group",
+    "description": "The label of footer link with label=Facebook Group linking to https://web.facebook.com/groups/openthaigpt"
+  },
+  "link.item.label.Hugging Face": {
+    "message": "Hugging Face",
+    "description": "The label of footer link with label=Hugging Face linking to https://huggingface.co/openthaigpt"
+  },
+  "link.item.label.AIEAT": {
+    "message": "AIEAT",
+    "description": "The label of footer link with label=AIEAT linking to https://aieat.or.th"
+  },
+  "link.item.label.iApp Technology": {
+    "message": "iApp Technology",
+    "description": "The label of footer link with label=iApp Technology linking to https://iapp.co.th"
+  },
+  "copyright": {
+    "message": "© 2026 泰国人工智能企业家协会 (AIEAT) · OpenThaiGPT — 免费开源的泰语大语言模型",
+    "description": "The footer copyright"
+  }
+}

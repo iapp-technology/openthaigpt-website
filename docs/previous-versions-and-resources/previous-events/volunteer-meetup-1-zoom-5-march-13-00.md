@@ -1,22 +1,25 @@
 ---
 title: 'Volunteer Meetup #1 (Zoom) 5 March 13:00'
 slug: '/previous-versions-and-resources/previous-events/volunteer-meetup-1-zoom-5-march-13-00'
+description: 'Volunteer Meetup ครั้งที่ 1 ผ่าน Zoom วันที่ 5 มีนาคม เวลา 13:00 น. — บันทึกวิดีโอ เว็บลงทะเบียนอาสาสมัคร สไลด์ประกอบ และกำหนดการ'
 ---
 # Volunteer Meetup #1 (Zoom) 5 March 13:00
 
+## บันทึกวิดีโอ
+
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/S7qYQAgMg_k" title="YouTube video" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
 
-### เว็บลงทะเบียนทีมอาสาสมัครครับ
+## เว็บลงทะเบียนทีมอาสาสมัครครับ
 
-[https://docs.google.com/spreadsheets/d/1r2jDImNEBxhds\_X0Xs0mZVOr26mWYvDgRwCnv-g-RJc/edit#gid=0](https://docs.google.com/spreadsheets/d/1r2jDImNEBxhds_X0Xs0mZVOr26mWYvDgRwCnv-g-RJc/edit#gid=0)
+<a class="link-card" href="https://docs.google.com/spreadsheets/d/1r2jDImNEBxhds_X0Xs0mZVOr26mWYvDgRwCnv-g-RJc/edit#gid=0" target="_blank" rel="noopener noreferrer"><span class="link-card-title">ตารางลงทะเบียนทีมอาสาสมัคร — Google Sheets</span><span class="link-card-domain">docs.google.com</span></a>
 
-### สไลด์ของ ดร.ซี ครับ 
+## สไลด์ของ ดร.ซี ครับ
 
-[https://docs.google.com/presentation/d/1JJxtwo1pCJC3u6aSfslSp1FJSb5ZS5xBKIiQ-6Kip\_g/edit#slide=id.g215e4599848\_0\_88](https://docs.google.com/presentation/d/1JJxtwo1pCJC3u6aSfslSp1FJSb5ZS5xBKIiQ-6Kip_g/edit#slide=id.g215e4599848_0_88) 
+<a class="link-card" href="https://docs.google.com/presentation/d/1JJxtwo1pCJC3u6aSfslSp1FJSb5ZS5xBKIiQ-6Kip_g/edit#slide=id.g215e4599848_0_88" target="_blank" rel="noopener noreferrer"><span class="link-card-title">สไลด์ประกอบของ ดร.ซี — Google Slides</span><span class="link-card-domain">docs.google.com</span></a>
 
-### สไลด์ของ ดร.ปรัชญา ครับ 
+## สไลด์ของ ดร.ปรัชญา ครับ
 
-[https://drive.google.com/file/d/1\_5RRbyfSlLm3W277Zf4Kp7b8ZP6KRzR3/view?usp=sharing](https://drive.google.com/file/d/1_5RRbyfSlLm3W277Zf4Kp7b8ZP6KRzR3/view?usp=sharing)
+<a class="link-card" href="https://drive.google.com/file/d/1_5RRbyfSlLm3W277Zf4Kp7b8ZP6KRzR3/view?usp=sharing" target="_blank" rel="noopener noreferrer"><span class="link-card-title">สไลด์ประกอบของ ดร.ปรัชญา — Google Drive</span><span class="link-card-domain">drive.google.com</span></a>
 
 ## Agenda
 

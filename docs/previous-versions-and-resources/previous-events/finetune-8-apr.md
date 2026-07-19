@@ -1,54 +1,48 @@
 ---
 title: 'อัพเดท! จากทีม Finetune (8 Apr)'
 slug: '/previous-versions-and-resources/previous-events/finetune-8-apr'
-description: '8 Apr 2023'
+description: 'อัพเดทจากทีม Finetune (8 Apr 2023): ปรับแผนจาก RLHF เป็น Self-Instruct พร้อมวิธีสร้าง Thai Instruct Dataset และงานที่ต้องการความช่วยเหลือจากอาสาสมัคร'
 ---
-
 # 🆕 อัพเดท! จากทีม Finetune (8 Apr)
 
-สวัสดีครับ ทุกท่าน  ทางผม (ดร.ซี) และ ดร. สุเมธ (พี่เต้ย) มาขออัพเดทสถานการณ์ทีม Finetuning หน่อยครับ จากประชุมครั้งที่แล้ว เรามีเปลี่ยนทิศทางครับ\
-\
+สวัสดีครับ ทุกท่าน ทางผม (ดร.ซี) และ ดร. สุเมธ (พี่เต้ย) มาขออัพเดทสถานการณ์ทีม Finetuning หน่อยครับ จากประชุมครั้งที่แล้ว เรามีเปลี่ยนทิศทางครับ
+
 **TLDR; หลักๆคือ ปรับแผนครับบบ!! จาก RLHF -> Self-Instruct ครับ**
 
-## **InstructGPT ใช้ Data และ Labour เยอะมาก**
+## InstructGPT ใช้ Data และ Labour เยอะมาก
 
-เมื่อเดือนที่แล้ว เราจะทำ Model ออกมาด้วยเทคนิค InstructGPT ตาม Paper ของ OpenAI ครับ ([https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)) ที่เป็นเทคนิคใช้เทรน ChatGPT ซึ่งการ Finetuning Model ประกอบไปด้วย 3 ส่วนหลักๆ
+เมื่อเดือนที่แล้ว เราจะทำ Model ออกมาด้วยเทคนิค InstructGPT ตาม [Paper ของ OpenAI](https://arxiv.org/abs/2203.02155) ที่เป็นเทคนิคใช้เทรน ChatGPT ซึ่งการ Finetuning Model ประกอบไปด้วย 3 ส่วนหลักๆ
 
-(1) Pre-training ภาษาที่ใหญ่พอและที่เทรนมามากพอ\
-(2) Finetuning บน  Dataset InstructGPT\
-(3) RLHF ให้คุณภาพดีขึ้น\
-\
-โดยส่วนที่ (1) เราให้ทีม [pretraining-llm.md](../released-code-colabs/pretraining-llm.md "mention") จัดการไปครับ \
-\
+* (1) Pre-training ภาษาที่ใหญ่พอและที่เทรนมามากพอ
+* (2) Finetuning บน Dataset InstructGPT
+* (3) RLHF ให้คุณภาพดีขึ้น
+
+โดยส่วนที่ (1) เราให้ทีม [Pretraining LLM](../released-code-colabs/pretraining-llm.md) จัดการไปครับ
+
 ส่วนที่ (2) เราใช้ Dataset จาก ThaiInstructGPT ที่เอาคำถามมาจากเว็บไซด์ Pantip เป็นต้นแบบและเก็บคำตอบจาก ChatGPT ซึ่งส่วนมากจะเป็นคำถามองค์ความรู้ทั่วไป แต่ก็ยังขาดชุดคำถาม-คำตอบที่เป็นคำสั่งละเอียดๆ อาทิเช่น คำสั่งแปลภาษา, คำสั่งแก้โค้ด, คำสั่งให้ตอบข้อสอบองค์ความรู้จาก O-net, คำสั่งเขียนโค้ด, คำสั่งที่แสดงถึงความฉลาดต่างๆ, และคำสั่งที่เป็นแบบ Few-shot Learning ครับ
 
 ในส่วนที่ (3) ก็มีปัญหาในการทำ RLHF ติดปัญหาอยู่ 2 อย่างครับ
 
-​(1) เรายังสร้าง Reward Model ที่มีประสิทธิภาพไม่ได้ครับ เนื่องจากขาด Dataset ครับ ตามข้อ (2) ครับ
+* (1) เรายังสร้าง Reward Model ที่มีประสิทธิภาพไม่ได้ครับ เนื่องจากขาด Dataset ครับ ตามข้อ (2) ครับ
+* (2) ยังขาด Data Set ที่เป็นการ Ranking คำตอบที่มี ข้อความหน้าตาแตกต่างกันมากพอครับ
+  * (2.1) Dataset ที่ทางเรา Gen ออกมาให้จากการ Train Thai Instruct Dataset version แรก โดยโมเดลที่ออกคำตอบมาแตกต่างกันนั้น 4 อัน และขอร้องให้ทีมอาสาสมัครมาช่วย Rank กันนั้น (ที่ให้เรียง A,B,C,D) **คำตอบแตกต่างกันไม่มากพอครับ แทบจะเขียนเหมือนกันเลย จนคนยังแยกไม่ออกเลยว่า อันไหนดีกว่ากันครับ**
+  * (2.2) Dataset ที่ตอนนี้คนมา Tag ข้อมูลให้ที่ [tag.openthaigpt.aieat.or.th](https://tag.openthaigpt.aieat.or.th/) มีความแตกต่างกันมากพอครับ เพราะใช้คนสร้างขึ้นมา แต่ยังมีปริมาณไม่เพียงพอครับ ประมาณ 100 กว่า Dataset ตัวอย่างเท่านั้นเอง (คงต้องกระตุ้นและหาคนมาช่วย Tag เพิ่มเติมครับ)
 
-(2) ยังขาด Data Set ที่เป็นการ Ranking คำตอบที่มี ข้อความหน้าตาแตกต่างกันมากพอครับ 
-
-   (2.1) Dataset ที่ทางเรา Gen ออกมาให้จากการ Train Thai Instruct Dataset version แรก โดยโมเดลที่ออกคำตอบมาแตกต่างกันนั้น 4 อัน และขอร้องให้ทีมอาสาสมัครมาช่วย Rank กันนั้น  (ที่ให้เรียง A,B,C,D) **คำตอบแตกต่างกันไม่มากพอครับ แทบจะเขียนเหมือนกันเลย จนคนยังแยกไม่ออกเลยว่า อันไหนดีกว่ากันครับ**
-
-   (2.2) Dataset ที่ตอนนี้คนมา Tag ข้อมูลให้ที [https://tag.openthaigpt.aieat.or.th/](https://tag.openthaigpt.aieat.or.th/) มีความแตกต่างกันมากพอครับ เพราะใช้คนสร้างขึ้นมา แต่ยังมีปริมาณไม่เพียงพอครับ ประมาณ 100 กว่า Dataset ตัวอย่างเท่านั้นเอง (คงต้องกระตุ้นและหาคนมาช่วย Tag เพิ่มเติมครับ)
-
-## วิธีการใหม่ Self-Instruct 
+## วิธีการใหม่ Self-Instruct
 
 ![](</img/image-6.png>)
 
-ในสัปดาห์ที่ผ่านมา ทางผมมาเจอ Paper Self-Instruct  ([https://arxiv.org/abs/2212.10560#](https://arxiv.org/abs/2212.10560?fbclid=IwAR0YkKklh41awrYPuJH6bWQTqsU0FL6Y4wloL4LMKSsm_m3TNe_-iNCHFG8)) ซึ่งใน Paper นี้คือพื้นฐานกระบวนการสร้าง Stanford Alpaca Model ที่เปิดตัวเมื่อ 2 สัปดาห์ที่แล้วเลยครับ  [https://crfm.stanford.edu/2023/03/13/alpaca.html](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+ในสัปดาห์ที่ผ่านมา ทางผมมาเจอ [Paper Self-Instruct](https://arxiv.org/abs/2212.10560) ซึ่งใน Paper นี้คือพื้นฐานกระบวนการสร้าง [Stanford Alpaca Model](https://crfm.stanford.edu/2023/03/13/alpaca.html) ที่เปิดตัวเมื่อ 2 สัปดาห์ที่แล้วเลยครับ
 
-Paper นี้กล่าวถึงวิธีการสร้าง Dataset Thai InstructGPT ที่ใช้พลังงานคนน้อยมากครับ และสามารถชุดคำถาม-คำตอบที่เป็นคำสั่งละเอียดๆ คำสั่งเขียนโค้ด คำสั่งที่แสดงถึงความสามารถ และคำสั่งที่เป็นแบบ Few-shot Learning ได้ทั้งหมดด้วย โอ้ แก้ปัญหาเราได้พอดิบพอดี ซึ่งต้องการแค่คนมาช่วยมาตรวจคุณภาพ Dataset ตอนสุดท้ายและลบอันที่มีปัญหาออกไป 
+Paper นี้กล่าวถึงวิธีการสร้าง Dataset Thai InstructGPT ที่ใช้พลังงานคนน้อยมากครับ และสามารถชุดคำถาม-คำตอบที่เป็นคำสั่งละเอียดๆ คำสั่งเขียนโค้ด คำสั่งที่แสดงถึงความสามารถ และคำสั่งที่เป็นแบบ Few-shot Learning ได้ทั้งหมดด้วย โอ้ แก้ปัญหาเราได้พอดิบพอดี ซึ่งต้องการแค่คนมาช่วยมาตรวจคุณภาพ Dataset ตอนสุดท้ายและลบอันที่มีปัญหาออกไป
 
 ซึ่งทางนักพัฒนา Paper Self-Instruct แจ้งว่า ด้วยวิธีการนี้ ไม่ต้องทำวิธีการ RLHF อีกต่อไปแล้ว เพราะถ้า Dataset InstructGPT มีคุณภาพมากพอ ก็จะสามารถฝึก LLM ได้มีคุณภาพเทียบเท่า ChatGPT ได้เลยทีเดียว
 
 ![](</img/image-14.png>)
 
+### วิธีการสร้าง Instruct Dataset แบบ Self-Instruct
 
-
-### วิธีการของสร้าง Instruct Dataset แบบ Self-Instruct 
-
-(1) เริ่มต้นให้คนเขียน Instruct Dataset ตัวอย่างครับ ที่เป็นภาษาไทย ผมขอเรียกว่า  SEED Instruct Dataset  เป็น Dataset เบื้องต้น 175 คู่ ซึ่งทางผมแปลด้วย Google Translate และ ทำการ Review นั่งแก้มือจนถูกต้องหมดทุกอย่างแล้ว (Human Reviewed) ดังภาพ 
+(1) เริ่มต้นให้คนเขียน Instruct Dataset ตัวอย่างครับ ที่เป็นภาษาไทย ผมขอเรียกว่า SEED Instruct Dataset เป็น Dataset เบื้องต้น 175 คู่ ซึ่งทางผมแปลด้วย Google Translate และ ทำการ Review นั่งแก้มือจนถูกต้องหมดทุกอย่างแล้ว (Human Reviewed) ดังภาพ
 
 ```json
 {"id":"seed_task_0",
@@ -68,7 +62,7 @@ Paper นี้กล่าวถึงวิธีการสร้าง Data
   "is_classification":false,"length":138}
 ```
 
-แน่นอน! ทุกท่านสามารถไปโหลด SEED Instruct Dataset ที่ผมนั่ง Clean ให้แล้ว ได้เลยครับที่นี้: [https://drive.google.com/file/d/1-bz16ASSlFZBj8m-SlQIxLxj2ZdHo99y/view?usp=sharing](https://drive.google.com/file/d/1-bz16ASSlFZBj8m-SlQIxLxj2ZdHo99y/view?usp=sharing)<br>
+แน่นอน! ทุกท่านสามารถไปโหลด [SEED Instruct Dataset ที่ผมนั่ง Clean ให้แล้ว](https://drive.google.com/file/d/1-bz16ASSlFZBj8m-SlQIxLxj2ZdHo99y/view?usp=sharing) ได้เลยครับ
 
 (2) Sample ตัวอย่างนี้ ยิงไปถาม OpenAI GPT-4 ให้เขียน Instruct Dataset แบบใหม่ออกมาใกล้เคียงแบบนี้ให้หน่อย โดยใช้ Prompt Engineering ดังตัวอย่างข้างล่าง
 
@@ -108,7 +102,7 @@ List of 20 tasks:
 4. Instruction:
 ```
 
-3. ส่งให้ OpenAI GPT-4 จะเขียนตอบกลับมาดังนี้
+(3) ส่งให้ OpenAI GPT-4 จะเขียนตอบกลับมาดังนี้
 
 ```
 4. Instruction: ปรับปรุงเนื้อหาเพิ่มเติมความคิดเองในความพยายามในการออกกำลังกายของข้าวของผู้เขียน
@@ -119,7 +113,7 @@ List of 20 tasks:
 
 ```
 
-4. เราก็จะเก็บเกี่ยว สิ่งที่ OpenAI GPT-4 เขียนตอบกลับมา แปลงเป็น JSON ดังภาพ
+(4) เราก็จะเก็บเกี่ยว สิ่งที่ OpenAI GPT-4 เขียนตอบกลับมา แปลงเป็น JSON ดังภาพ
 
 ```json
 {
@@ -129,7 +123,7 @@ List of 20 tasks:
 }
 ```
 
-5. เราเปรียบเทียบ Instruct Dataset ที่ OpenAI เขียนมาให้ กับในคลังของเรา ถ้าในคลังมีคล้ายกับของใหม่มากเกินไป (คะแนน ROUGE มากกว่า 0.8) แม้แต่ 1 อัน ก็จะถูกปฏิเสธการเข้าคลัง ข้างล่างคือคะแนนความเหมือนของ Instruct อื่นๆ ของ Instruct Dataset อันใหม่ข้างต้น (จะเห็นได้ว่ามากสุดคือแค่ 0.18 เก็บเข้าคลังได้) 
+(5) เราเปรียบเทียบ Instruct Dataset ที่ OpenAI เขียนมาให้ กับในคลังของเรา ถ้าในคลังมีคล้ายกับของใหม่มากเกินไป (คะแนน ROUGE มากกว่า 0.8) แม้แต่ 1 อัน ก็จะถูกปฏิเสธการเข้าคลัง ข้างล่างคือคะแนนความเหมือนของ Instruct อื่นๆ ของ Instruct Dataset อันใหม่ข้างต้น (จะเห็นได้ว่ามากสุดคือแค่ 0.18 เก็บเข้าคลังได้)
 
 ```json
 "most_similar_instructions": {
@@ -147,9 +141,9 @@ List of 20 tasks:
 "avg_similarity_score": 0.04100189264641197
 ```
 
-### สิ่งที่เรากำลังทำอยู่และต้องการความช่วยเหลือ
+## สิ่งที่เรากำลังทำอยู่และต้องการความช่วยเหลือ
 
-#### 1. ช่วยกรองข้อมูล Self-Instruct ให้ทีครับ
+### 1. ช่วยกรองข้อมูล Self-Instruct ให้ทีครับ
 
 ตอนนี้ทางผมกำลังรัน Self-Instruct ด้วยวิธีการนี้อยู่ และกำลังผลิต Instruct Dataset ออกมาใหม่เรื่อยๆ เมื่อได้ครบซัก 10,000 คู่เป็นอย่างน้อยแล้วจะขอ Volunteer มาช่วยกันตรวจสิ่งที่ GPT-4 ช่วยสร้าง Instruct Dataset มาให้นะครับ โดยอยากจะให้ช่วยแยกแยะว่า Instruct Dataset ที่สร้างขึ้นมาใหม่นี้
 
@@ -159,8 +153,8 @@ List of 20 tasks:
 4. ไม่มีคำใหม่ ที่ประดิษฐ์มาใหม่ ไม่เคยนิยามมาก่อน
 5. อ่านรู้เรื่อง
 
-ซึ่งผมจะปล่อยผ่านทาง Google Sheet [https://docs.google.com/spreadsheets/d/1BSHkpRyD5RH90E85tLWe4UzpgfDHZafE2rKxLincyWI/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1BSHkpRyD5RH90E85tLWe4UzpgfDHZafE2rKxLincyWI/edit?usp=sharing)  รบกวนทุกท่านช่วยมา Tag ครับ ดังตัวอย่าง\
-\
+ซึ่งผมจะปล่อยผ่านทาง [Google Sheet](https://docs.google.com/spreadsheets/d/1BSHkpRyD5RH90E85tLWe4UzpgfDHZafE2rKxLincyWI/edit?usp=sharing) รบกวนทุกท่านช่วยมา Tag ครับ ดังตัวอย่าง
+
 ตัวอย่างที่ 1: เป็นตัวอย่างที่ดี
 
 ```json
@@ -181,7 +175,7 @@ List of 20 tasks:
 }
 ```
 
-ตัวอย่างที่ 3: : เป็นตัวอย่างที่ไม่ดี (มีคำซ้ำมากเกินไป วิ่งวิ่งวิ่ง)
+ตัวอย่างที่ 3: เป็นตัวอย่างที่ไม่ดี (มีคำซ้ำมากเกินไป วิ่งวิ่งวิ่ง)
 
 ```json
 {
@@ -191,11 +185,13 @@ List of 20 tasks:
 }
 ```
 
-เป็นต้น<br>
+เป็นต้น
 
 ความช่วยเหลืออีกอันแต่ไม่เกี่ยวกันครับ
 
-2. อยากได้ข้อสอบ O-Net พร้อมเฉลยในรูปแบบ JSON Text ครับ แบบนี้ครับ ใครมีบ้างครับ ติดต่อผมได้เลยครับที่ kobkrit@aieat.or.th หรือ Discord kobkrit ครับผม
+### 2. อยากได้ข้อสอบ O-Net พร้อมเฉลยในรูปแบบ JSON Text ครับ
+
+แบบนี้ครับ ใครมีบ้างครับ ติดต่อผมได้เลยครับที่ kobkrit@aieat.or.th หรือ Discord kobkrit ครับผม
 
 ```json
 {
@@ -205,10 +201,8 @@ List of 20 tasks:
 }
 ```
 
-\
-Model OpenThaiGPT ที่ฉลาดพอจนสามารถทำ Few-Shot Learning ได้ใกล้เป็นจริงเข้ามาแล้วครับ ขอทุกคนช่วยสนับสนุนกันต่อไปนะครับ\
-\
-ขอบคุณมากครับ\
-\
-ดร. กอบกฤตย์ วิริยะยุทธกร\
-ดร. สุเมธ ยืนยง
+Model OpenThaiGPT ที่ฉลาดพอจนสามารถทำ Few-Shot Learning ได้ใกล้เป็นจริงเข้ามาแล้วครับ ขอทุกคนช่วยสนับสนุนกันต่อไปนะครับ
+
+ขอบคุณมากครับ
+
+ดร. กอบกฤตย์ วิริยะยุทธกร<br />ดร. สุเมธ ยืนยง

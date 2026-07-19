@@ -10,20 +10,21 @@ description: 'โมเดลภาษาขนาดใหญ่ Free และ
 
 🇹🇭 OpenThaiGPT 1.6 72b โมเดลภาษาขนาดใหญ่รุ่นล่าสุด ได้รับการปรับปรุงจากรุ่น 1.5 และ 🧠 OpenThaiGPT R1 32b โมเดลด้านการคิดวิเคราะห์และให้เหตุผล และพร้อมให้บริการแล้ว โมเดลนี้ได้รับการพัฒนาเพื่อการใช้งานทั่วไปและมีความสามารถด้านการคิดเชิงเหตุผลที่แข็งแกร่ง โดยเฉพาะอย่างยิ่งในภาษาไทย
 
-### ทดลองใช้งาน
+## ทดลองใช้งาน
 
-ทดลองใช้งานผ่าน ChindaX: [https://chindax.iapp.co.th](https://chindax.iapp.co.th)
+<a class="link-card" href="https://chindax.iapp.co.th" target="_blank" rel="noopener noreferrer"><span class="link-card-title">ทดลองใช้งานผ่าน ChindaX</span><span class="link-card-domain">chindax.iapp.co.th</span></a>
 
-### ดาวน์โหลดโมเดล
+## ดาวน์โหลดโมเดล
 
-OpenThaiGPT 1.6 72b: [https://huggingface.co/openthaigpt/openthaigpt-1.6-72b-instruct](https://huggingface.co/openthaigpt/openthaigpt-1.6-72b-instruct)\
-OpenTHaiGPT R1 32b: [https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instruct](https://huggingface.co/openthaigpt/openthaigpt-1.6-72b-instruct)
+<a class="link-card" href="https://huggingface.co/openthaigpt/openthaigpt-1.6-72b-instruct" target="_blank" rel="noopener noreferrer"><span class="link-card-title">OpenThaiGPT 1.6 72b — Hugging Face</span><span class="link-card-domain">huggingface.co</span></a>
 
-### 🌟 OpenThaiGPT 1.6 72b
+<a class="link-card" href="https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instruct" target="_blank" rel="noopener noreferrer"><span class="link-card-title">OpenThaiGPT R1 32b — Hugging Face</span><span class="link-card-domain">huggingface.co</span></a>
+
+## 🌟 OpenThaiGPT 1.6 72b
 
 **OpenThaiGPT 1.6 72b** เป็นโมเดลภาษาไทยขนาด 72 พันล้านพารามิเตอร์ ที่ออกแบบมาสำหรับงานทั่วไปพร้อมความสามารถในการคิดวิเคราะห์ที่แข็งแกร่ง ต่อยอดจากพื้นฐานของ OpenThaiGPT 1.5 รุ่นล่าสุดนี้แสดงให้เห็นถึงประสิทธิภาพที่ดีขึ้นในการทดสอบหลากหลายรูปแบบ โดยเฉพาะอย่างยิ่งในด้านการเขียนโค้ดและงานด้านภาษาทั่วไป
 
-#### จุดเด่น
+### จุดเด่นของ OpenThaiGPT 1.6 72b
 
 * **โมเดลภาษาไทยขั้นสูง** ด้วยพารามิเตอร์ 72 พันล้าน
 * **ความสามารถในการคิดวิเคราะห์ที่แข็งแกร่ง** ทั้งในภาษาไทยและภาษาอังกฤษ
@@ -31,7 +32,7 @@ OpenTHaiGPT R1 32b: [https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instr
 * **ความสามารถที่สมดุล** ทั้งด้านคณิตศาสตร์ การเขียนโค้ด และงานด้านภาษาทั่วไป
 * **ความเข้าใจที่ลึกซึ้ง** ในภาษาไทยและบริบททางวัฒนธรรม
 
-#### การปรับปรุงหลักใน OpenThaiGPT 1.6 72b
+### การปรับปรุงหลักใน OpenThaiGPT 1.6 72b
 
 เมื่อเทียบกับ OpenThaiGPT 1.5 72b รุ่น 1.6 แสดงให้เห็น:
 
@@ -39,11 +40,11 @@ OpenTHaiGPT R1 32b: [https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instr
 * **ความเข้าใจภาษาทั่วไปที่เทียบเคียงกัน** ด้วยความแม่นยำด้านภาษาสูงถึง 98.2%
 * **ความสามารถที่สมดุลดีขึ้น** ระหว่างงานด้านคณิตศาสตร์และการเขียนโค้ด
 
-### 🧠 OpenThaiGPT R1 32b
+## 🧠 OpenThaiGPT R1 32b
 
 **OpenThaiGPT R1 32b** เป็นโมเดลภาษาไทยขั้นสูงขนาด 32 พันล้านพารามิเตอร์ที่เน้นด้านการคิดวิเคราะห์และให้เหตุผล ซึ่งมีประสิทธิภาพสูงกว่าโมเดลขนาดใหญ่อย่าง DeepSeek R1 70b และ Typhoon R1 70b แม้จะมีขนาดเล็กกว่าครึ่งหนึ่ง โมเดลนี้เชี่ยวชาญในงานที่ต้องใช้การคิดวิเคราะห์ซับซ้อน รวมถึงคณิตศาสตร์ ตรรกะ และการเขียนโค้ดในภาษาไทย
 
-#### จุดเด่น
+### จุดเด่นของ OpenThaiGPT R1 32b
 
 * **โมเดลภาษาไทยที่ทันสมัยที่สุด** มีประสิทธิภาพสูงกว่าโมเดลขนาดใหญ่ในการทดสอบด้านคณิตศาสตร์และการให้เหตุผลเชิงตรรกะ
 * **ความสามารถในการให้เหตุผลอย่างชัดเจน** สามารถแสดงกระบวนการคิดเป็นขั้นตอนได้
@@ -51,9 +52,9 @@ OpenTHaiGPT R1 32b: [https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instr
 * **เชี่ยวชาญด้านการคิดวิเคราะห์ในภาษาไทย** รวมถึงปัญหาคณิตศาสตร์และตรรกะที่ซับซ้อน
 * **ประสิทธิภาพสูงในการเขียนโค้ด** ทั้งในภาษาไทยและภาษาอังกฤษ
 
-### ผลการทดสอบเปรียบเทียบ
+## ผลการทดสอบเปรียบเทียบ
 
-#### OpenThaiGPT 1.6 72b
+### OpenThaiGPT 1.6 72b
 
 | **Benchmarks**        | **OpenThaiGPT 1.6 72b**                    | **OpenThaiGPT 1.5 7b** | **OpenThaiGPT 1.5 14b** | **OpenThaiGPT 1.5 72b** | **Typhoon2 Qwen2.5 7b** | **Typhoon2 Llama3.1 8b** | **Typhoon2 Llama3.1 70b** | **NECTEC Pathumma LLM Text 1.0.0 7b** |
 | --------------------- | ------------------------------------------ | ---------------------- | ----------------------- | ----------------------- | ----------------------- | ------------------------ | ------------------------- | ------------------------------------- |
@@ -67,7 +68,7 @@ OpenTHaiGPT R1 32b: [https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instr
 | **Language Accuracy** | 98.2                                       | 97.6                   | 98.4                    | 99.4                    | 99.4                    | 98.6                     | **99.8**                  | 98.6                                  |
 | **AVERAGE**           | <mark style="color:blue;">**52.34**</mark> | 35.88                  | 39.11                   | 51.34                   | 37.78                   | 32.06                    | 47.91                     | 28.56                                 |
 
-#### OpenThaiGPT R1 32b
+### OpenThaiGPT R1 32b
 
 | **SkyThought**       | **OpenThaiGPT R1 32b**                     | **DeepSeek R1 70b** | **Typhoon R1 70b** |
 | -------------------- | ------------------------------------------ | ------------------- | ------------------ |
@@ -80,9 +81,9 @@ OpenTHaiGPT R1 32b: [https://huggingface.co/openthaigpt/openthaigpt-r1-32b-instr
 | **OpenThaiEval**     | 76.05                                      | 74.17               | **77.59**          |
 | **AVERAGE**          | <mark style="color:blue;">**71.58**</mark> | 63.31               | 65.42              |
 
-### Model Technical Report
+## Model Technical Report
 
-[https://arxiv.org/abs/2504.01789](https://arxiv.org/abs/2504.01789)
+<a class="link-card" href="https://arxiv.org/abs/2504.01789" target="_blank" rel="noopener noreferrer"><span class="link-card-title">OpenThaiGPT 1.6 and R1 Technical Report — arXiv</span><span class="link-card-domain">arxiv.org</span></a>
 
 If OpenThaiGPT has been beneficial for your work, kindly consider citing it as follows:
 
@@ -98,13 +99,13 @@ If OpenThaiGPT has been beneficial for your work, kindly consider citing it as f
 }
 ```
 
-### วิธีการใช้งาน
+## วิธีการใช้งาน
 
-#### Online Web Interface
+### Online Web Interface
 
-[https://chindax.iapp.co.th](https://chindax.iapp.co.th)
+<a class="link-card" href="https://chindax.iapp.co.th" target="_blank" rel="noopener noreferrer"><span class="link-card-title">ChindaX — Online Web Interface</span><span class="link-card-domain">chindax.iapp.co.th</span></a>
 
-#### Transformers
+### Transformers
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -141,9 +142,9 @@ generated_ids = [
 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 ```
 
-#### vLLM
+### vLLM
 
-1. Install VLLM ([https://github.com/vllm-project/vllm](https://github.com/vllm-project/vllm))
+1. Install vLLM ([vllm-project/vllm](https://github.com/vllm-project/vllm))
 2. Run server (เลือกอันใดอันหนึ่ง)
 
 ```bash
@@ -175,25 +176,25 @@ curl -X POST 'http://127.0.0.1:8000/v1/chat/completions' \
 
 หรือเปลี่ยนชื่อโมเดลเป็น `"model": "openthaigpt/openthaigpt-r1-32b-instruct"` หรือ `"model": "openthaigpt/openthaigpt-1.6-72b"`.
 
-#### ความต้องการด้านหน่วยความจำ GPU
+### ความต้องการด้านหน่วยความจำ GPU
 
 | **จำนวนพารามิเตอร์** | **FP 16 bits** | **8 bits (Quantized)** | **4 bits (Quantized)** |
 | -------------------- | -------------- | ---------------------- | ---------------------- |
 | **32b**              | 64 GB          | 32 GB                  | 16 GB                  |
 | **72b**              | 144 GB         | 72 GB                  | 36 GB                  |
 
-### ใบอนุญาต
+## ใบอนุญาต
 
-* โมเดลนี้มีให้ใช้สำหรับ **การวิจัย** และ **การใช้งานเชิงพาณิชย์** ภายใต้เงื่อนไขสัญญาอนุญาติ Qwen2.5 โปรดดูไฟล์ LICENSE สำหรับข้อมูลเพิ่มเติม
+* โมเดลนี้มีให้ใช้สำหรับ **การวิจัย** และ **การใช้งานเชิงพาณิชย์** ภายใต้เงื่อนไขสัญญาอนุญาต Qwen2.5 โปรดดูไฟล์ LICENSE สำหรับข้อมูลเพิ่มเติม
 
-### การสนับสนุน
+## การสนับสนุน
 
-* เว็บไซต์อย่างเป็นทางการ: [https://openthaigpt.aieat.or.th](https://openthaigpt.aieat.or.th)
-* เพจ Facebook: [https://web.facebook.com/groups/openthaigpt](https://web.facebook.com/groups/openthaigpt)
-* เซิร์ฟเวอร์ Discord สำหรับการสนทนาและสนับสนุน [ที่นี่](https://discord.gg/rUTp6dfVUF)
+* เว็บไซต์อย่างเป็นทางการ: [openthaigpt.aieat.or.th](https://openthaigpt.aieat.or.th)
+* เพจ Facebook: [กลุ่ม OpenThaiGPT](https://web.facebook.com/groups/openthaigpt)
+* เซิร์ฟเวอร์ Discord สำหรับการสนทนาและสนับสนุน: [discord.gg/rUTp6dfVUF](https://discord.gg/rUTp6dfVUF)
 * อีเมล: [kobkrit@iapp.co.th](mailto:kobkrit@iapp.co.th)
 
-#### ทีม OpenThaiGPT
+### ทีม OpenThaiGPT
 
 ![](https://cdn-uploads.huggingface.co/production/uploads/5fcd9c426d942eaf4d1ebd30/e8gT15eRfNbyEZhu-UzMX.png)
 
@@ -201,11 +202,11 @@ curl -X POST 'http://127.0.0.1:8000/v1/chat/completions' \
 * ดร. สุเมธ ยืนยง (sumeth.yue@mahidol.edu)
 * ดร. ทศพร ฉายอินทร์ (thodsaporn@iapp.co.th)
 
-### ผู้สนับสนุน
+## ผู้สนับสนุน
 
 ![](https://cdn-uploads.huggingface.co/production/uploads/5fcd9c426d942eaf4d1ebd30/zSEA_n0cIOZk5pV_t2qii.png)
 
-* ได้รับการสนับสนุน GPU Nvidia H100 x 8 ใบ จากบริษัท สยาม เอไอ คอร์เปอเรชั่น จำกัด: [https://siam.ai/](https://siam.ai/)
+* ได้รับการสนับสนุน GPU Nvidia H100 x 8 ใบ จากบริษัท สยาม เอไอ คอร์เปอเรชั่น จำกัด: [siam.ai](https://siam.ai/)
 * ได้รับทุนวิจัยสนับสนุนจากกองทุนส่งเสริมวิทยาศาสตร์ วิจัยและนวัตกรรม โดยหน่วยบริหารและจัดการทุนด้านการเพิ่มความสามารถในการแข่งขันของประเทศ (บพข.) ร่วมกับ บริษัท ไอแอพพ์เทคโนโลยี จำกัด ซึ่งมี สมาคมผู้ประกอบการปัญญาประดิษฐ์ประเทศไทย เป็นผู้ดำเนินงานโครงการ
 
 _Disclaimer: Provided responses are not guaranteed._

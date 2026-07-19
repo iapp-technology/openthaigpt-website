@@ -3,40 +3,38 @@ title: 'OpenThaiGPT 1.5'
 slug: '/previous-versions-and-resources/openthaigpt-1.5'
 description: 'เทคโนโลยีทางภาษาแบบ ChatGPT (Large Language Model) พัฒนาเพื่อคนไทยทุกคน'
 ---
-
 # OpenThaiGPT 1.5
 
 🇹🇭 **OpenThaiGPT เวอร์ชัน 1.5** เป็นโมเดลแชทภาษาไทยขนาดใหญ่ขนาด 7, 14 และ 72 พันล้านพารามิเตอร์ ซึ่งพัฒนาต่อยอดจาก Qwen 2.5 ให้มีความสามารถในการเข้าใจและเขียนภาษาไทยได้ เปิดโค้ดและโมเดลอย่างเสรี (Opensource) ให้ทุกคนสามารถนำไปพัฒนาต่อยอดหรือแม้กระทั่งการทำการค้าได้ เพื่อเป็น Infrastructure พื้นฐานด้านปัญญาประดิษฐ์สำหรับคนไทยทุกคน
 
 <figure><img src="/img/openthaigpt-1.5.png" alt=""><figcaption><p>Poster เปิดตัว 7/72b ณ วันที่ 30 กันยายน</p></figcaption></figure>
 
-### Online Demo: 
+## Online Demo
 
-### [https://demo72b.aieat.or.th/](https://demo72b.aieat.or.th/) Hosted by [Siam.AI Cloud](https://siam.ai) ![](/img/siamai.png)
+<a class="link-card" href="https://demo72b.aieat.or.th/" target="_blank" rel="noopener noreferrer"><span class="link-card-title">OpenThaiGPT 1.5 72b Online Demo</span><span class="link-card-domain">demo72b.aieat.or.th</span></a>
 
+Hosted by [Siam.AI Cloud](https://siam.ai) ![](/img/siamai.png)
 
-
-### **Free Online API Service:**
+## Free Online API Service
 
 Free API Service via OpenAI's client library `openai`
 
-API Base : [https://api.float16.cloud/dedicate/78y8fJLuzE/v1/](https://api.float16.cloud/dedicate/78y8fJLuzE/v1/?fbclid=IwZXh0bgNhZW0CMTAAAR3xkE3bnZUY6KCb0vSq0ivjvsSguci8K6EYAMLddJ1B1n2a7ek0N5eP1DI_aem__EWt8ZkkjJiT185ASFSCLw)\
-API Key : float16-AG0F8yNce5s1DiXm1ujcNrTaZquEdaikLwhZBRhyZQNeS7Dv0X\
-Model : openthaigpt/openthaigpt1.5-7b-instruct
+* API Base: [https://api.float16.cloud/dedicate/78y8fJLuzE/v1/](https://api.float16.cloud/dedicate/78y8fJLuzE/v1/)
+* API Key: float16-AG0F8yNce5s1DiXm1ujcNrTaZquEdaikLwhZBRhyZQNeS7Dv0X
+* Model: openthaigpt/openthaigpt1.5-7b-instruct
+* Code Example: [OpenThaiGPT/openthaigpt1.5\_api\_examples](https://github.com/OpenThaiGPT/openthaigpt1.5_api_examples)
 
-Code Example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples](https://github.com/OpenThaiGPT/openthaigpt1.5_api_examples)
-
-### Hosted by [https://float16.cloud/](https://float16.cloud/) 
+Hosted by [Float16.cloud](https://float16.cloud/)
 
 <figure><img src="/img/image-30.png" alt="" width="100"><figcaption></figcaption></figure>
 
-### ดาวน์โหลดโมเดล (Latest Update: 13 October 2024)
+## ดาวน์โหลดโมเดล (Latest Update: 13 October 2024)
 
-* 7b - [https://huggingface.co/openthaigpt/openthaigpt1.5-7b-instruct](https://huggingface.co/openthaigpt/openthaigpt1.5-7b-instruct)
-* 14b - [https://huggingface.co/openthaigpt/openthaigpt1.5-14b-instruct](https://huggingface.co/openthaigpt/openthaigpt1.5-14b-instruct)
-* 72b - [https://huggingface.co/openthaigpt/openthaigpt1.5-72b-instruct](https://huggingface.co/openthaigpt/openthaigpt1.5-72b-instruct)
+* 7b - [openthaigpt/openthaigpt1.5-7b-instruct](https://huggingface.co/openthaigpt/openthaigpt1.5-7b-instruct)
+* 14b - [openthaigpt/openthaigpt1.5-14b-instruct](https://huggingface.co/openthaigpt/openthaigpt1.5-14b-instruct)
+* 72b - [openthaigpt/openthaigpt1.5-72b-instruct](https://huggingface.co/openthaigpt/openthaigpt1.5-72b-instruct)
 
-### จุดเด่น
+## จุดเด่น
 
 * **โมเดล LLM ภาษาไทยที่ทันสมัยที่สุด** ซึ่งทำคะแนนเฉลี่ยสูงสุดในการทดสอบภาษาไทยหลากหลายประเภทเมื่อเปรียบเทียบกับโมเดล LLM ภาษาไทยแบบโอเพนซอร์ซอื่นๆ
 * **รองรับการสนทนาแบบหลายรอบ** สำหรับการสนทนาต่อเนื่อง
@@ -44,9 +42,9 @@ Code Example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples](htt
 * **ความสามารถในการจัดการบริบทที่น่าประทับใจ**: ประมวลผลข้อความได้สูงสุด 131,072 โทเคน และสร้างข้อความได้สูงสุด 8,192 โทเคน ทำให้สามารถตอบคำถามที่ซับซ้อนได้อย่างละเอียด
 * **รองรับการเรียกใช้เครื่องมือ (Tool Calling):** ช่วยให้ผู้ใช้สามารถสั่งให้โมเดลเรียกใช้ฟังก์ชันต่างๆ อาทิเช่นเรียก API จากภายนอก, ดึงข้อมูลจาก Internet, ดึงข้อมูลจากฐานข้อมูลต่างๆ ได้อย่างมีประสิทธิภาพผ่านการตอบสนองอัจฉริยะ
 
-### ผลการทดสอบที่ [OpenThaiGPT Eval](https://huggingface.co/datasets/openthaigpt/openthaigpt_eval) 
+## ผลการทดสอบที่ [OpenThaiGPT Eval](https://huggingface.co/datasets/openthaigpt/openthaigpt_eval)
 
-### **7 พันล้านพารามิเตอร์ (7 billions)**
+### 7 พันล้านพารามิเตอร์ (7 billions)
 
 **กรุณาดูที่ `openthaigpt/openthaigpt1.5-7b-instruct` สำหรับผลการประเมินของโมเดลนี้**
 
@@ -71,9 +69,9 @@ Code Example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples](htt
 |      **17\_onet\_m6\_english**     |                    65.38%                    |                71.15%                |               78.85%               |                               80.77%                               |
 |          **ค่าเฉลี่ยย่อย**         |                    60.65%                    |                55.60%                |               64.41%               |             <mark style="color:blue;">**65.78%**</mark>            |
 
-### **14 พันล้านพารามิเตอร์ (14 billions)**
+### 14 พันล้านพารามิเตอร์ (14 billions)
 
-\*\* Please take a look at `openthaigpt/openthaigpt1.5-14b-instruct` for this model's evaluation result.
+**Please take a look at `openthaigpt/openthaigpt1.5-14b-instruct` for this model's evaluation result.**
 
 | **Exam names**                     | **scb10x/llama-3-typhoon-v1.5x-70b-instruct** | **Qwen/Qwen2.5-14B-Instruct** | <mark style="color:blue;">**openthaigpt/openthaigpt1.5-14b**</mark> | **openthaigpt/openthaigpt1.5-72b** |
 | ---------------------------------- | --------------------------------------------- | ----------------------------- | ------------------------------------------------------------------- | ---------------------------------- |
@@ -96,7 +94,7 @@ Code Example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples](htt
 | **17\_onet\_m6\_english**          | 73.08%                                        | 82.69%                        | 78.85%                                                              | 90.38%                             |
 | **Micro Average**                  | 69.97%                                        | 71.00%                        | <mark style="color:blue;">71.51%</mark>                             | 76.73%                             |
 
-### **72 พันล้านพารามิเตอร์ (72 billions)**
+### 72 พันล้านพารามิเตอร์ (72 billions)
 
 **กรุณาดูที่ `openthaigpt/openthaigpt1.5-72b-instruct` สำหรับผลการประเมินของโมเดลนี้**
 
@@ -121,13 +119,11 @@ Code Example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples](htt
 |      **17\_onet\_m6\_english**     |                     73.08%                    |                 82.69%                |             86.54%            |                                    90.38%                                    |
 |          **Micro Average**         |                     69.97%                    |                 71.09%                |             75.02%            |                  <mark style="color:blue;">**76.73%**</mark>                 |
 
-การทดสอบในข้อสอบปรนัยภาษาไทย ชุดทดสอบใหม่ที่ไม่เคยเห็นมาก่อน การเรียนรู้แบบศูนย์ช็อต รหัสต้นฉบับและข้อมูลการสอบ: https://github.com/OpenThaiGPT/openthaigpt\_eval
+การทดสอบในข้อสอบปรนัยภาษาไทย ชุดทดสอบใหม่ที่ไม่เคยเห็นมาก่อน การเรียนรู้แบบศูนย์ช็อต รหัสต้นฉบับและข้อมูลการสอบ: [OpenThaiGPT/openthaigpt\_eval บน GitHub](https://github.com/OpenThaiGPT/openthaigpt_eval)
 
 (อัปเดตเมื่อ: 30 กันยายน 2024)
 
-
-
-### ผลการทดสอบที่ [scb10x/thai\_exam](https://huggingface.co/datasets/scb10x/thai_exam)
+## ผลการทดสอบที่ [scb10x/thai\_exam](https://huggingface.co/datasets/scb10x/thai_exam)
 
 <figure><img src="/img/thai-exam-benchmark-results-13-october-2024.png" alt=""><figcaption></figcaption></figure>
 
@@ -149,16 +145,16 @@ Code Example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples](htt
 
 \* การประเมินโดยทีม OpenThaiGPT โดยใช้ [scb10x/thai\_exam](https://huggingface.co/datasets/scb10x/thai_exam)
 
-### ใบอนุญาต
+## ใบอนุญาต
 
 * สร้างขึ้นด้วย Qwen
-* ใบอนุญาต Qwen: อนุญาตให้ใช้ใน **งานวิจัย** และ **เชิงพาณิชย์** แต่หากผู้ใช้ของคุณมีจำนวนผู้ใช้งานต่อเดือนเกิน 100 ล้านคน คุณจำเป็นต้องเจรจาใบอนุญาตเชิงพาณิชย์แยกต่างหาก กรุณาดูไฟล์ LICENSE สำหรับข้อมูลเพิ่มเติม<br>
+* ใบอนุญาต Qwen: อนุญาตให้ใช้ใน **งานวิจัย** และ **เชิงพาณิชย์** แต่หากผู้ใช้ของคุณมีจำนวนผู้ใช้งานต่อเดือนเกิน 100 ล้านคน คุณจำเป็นต้องเจรจาใบอนุญาตเชิงพาณิชย์แยกต่างหาก กรุณาดูไฟล์ LICENSE สำหรับข้อมูลเพิ่มเติม
 
-### ผู้สนับสนุน
+## ผู้สนับสนุน
 
 <figure><img src="https://cdn-uploads.huggingface.co/production/uploads/5fcd9c426d942eaf4d1ebd30/3kjN6kuTzXDXQ6o1RFvHX.png" alt=""><figcaption></figcaption></figure>
 
-### Prompt Format
+## Prompt Format
 
 Prompt format is based on Llama2 with a small modification (Adding "###" to specify the context part)
 
@@ -166,13 +162,13 @@ Prompt format is based on Llama2 with a small modification (Adding "###" to spec
 <|im_start|>system\n{sytem_prompt}<|im_end|>\n<|im_start|>user\n{prompt}<|im_end|>\n<|im_start|>assistant\n
 ```
 
-#### System prompt:
+### System prompt
 
 ```
 คุณคือผู้ช่วยตอบคำถามที่ฉลาดและซื่อสัตย์
 ```
 
-#### Examples
+### Examples
 
 **Single Turn Conversation Example**
 
@@ -208,7 +204,7 @@ Prompt format is based on Llama2 with a small modification (Adding "###" to spec
 <|im_start|>system\nคุณคือผู้ช่วยตอบคำถามที่ฉลาดและซื่อสัตย์<|im_end|>\n<|im_start|>user\nสวัสดีครับ<|im_end|>\n<|im_start|>assistant\nสวัสดีครับ ยินดีต้อนรับครับ คุณต้องการให้ฉันช่วยอะไรครับ?<|im_end|>\n<|im_start|>user\nกรุงเทพมหานคร ชื่อเต็มยาวๆคืออะไร<|im_end|>\n<|im_start|>assistant\nชื่อเต็มของกรุงเทพมหานครคือ \"กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลกภพ นพรัตนราชธานีบูรีรมย์ อุดมราชนิเวศน์มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยวิษณุกรรมประสิทธิ์\"
 ```
 
-### How to use
+## How to use
 
 ### Free API via Curl (Hosted by Siam.AI and Float16.Cloud)
 
@@ -250,7 +246,7 @@ curl -X POST https://api.float16.cloud/dedicate/78y8fJLuzE/v1/chat/completions \
    }'
 ```
 
-#### OpenAI client (hosted by vLLM, please see below.)
+### OpenAI client (hosted by vLLM, please see below.)
 
 ```python
 import openai
@@ -276,7 +272,7 @@ except Exception as e:
     print("Error:", str(e))
 ```
 
-#### Huggingface
+### Huggingface
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -313,7 +309,7 @@ generated_ids = [
 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 ```
 
-#### vLLM
+### vLLM
 
 1. Install VLLM (https://github.com/vllm-project/vllm)
 2. Run server
@@ -338,7 +334,7 @@ curl -X POST 'http://127.0.0.1:8000/v1/completions' \
 }'
 ```
 
-#### Processing Long Texts
+### Processing Long Texts
 
 The current `config.json` is set for context length up to 32,768 tokens. To handle extensive inputs exceeding 32,768 tokens, we utilize [YaRN](https://arxiv.org/abs/2309.00071), a technique for enhancing model length extrapolation, ensuring optimal performance on lengthy texts.
 
@@ -355,14 +351,14 @@ For supported frameworks, you could add the following to `config.json` to enable
 }
 ```
 
-#### Tool Calling
+### Tool Calling
 
 The Tool Calling feature in OpenThaiGPT 1.5 enables users to efficiently call various functions through intelligent responses. This includes making external API calls to retrieve real-time data, such as current temperature information, or predicting future data simply by submitting a query.
 
 For example, a user can ask OpenThaiGPT, “What is the current temperature in San Francisco?” and the AI will execute a pre-defined function to provide an immediate response without the need for additional coding.
 
-This feature also allows for broader applications with external data sources, including the ability to call APIs for services such as weather updates, stock market information, or data from within the user’s own system.\
-\
+This feature also allows for broader applications with external data sources, including the ability to call APIs for services such as weather updates, stock market information, or data from within the user’s own system.
+
 Example:
 
 ```python
@@ -394,9 +390,9 @@ response = openai.ChatCompletion.create(
 print(response)
 ```
 
-Full example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples/blob/main/api\_tool\_calling\_powered\_by\_siamai.py](https://github.com/OpenThaiGPT/openthaigpt1.5_api_examples/blob/main/api_tool_calling_powered_by_siamai.py)
+Full example: [api\_tool\_calling\_powered\_by\_siamai.py — GitHub](https://github.com/OpenThaiGPT/openthaigpt1.5_api_examples/blob/main/api_tool_calling_powered_by_siamai.py)
 
-#### GPU Memory Requirements
+### GPU Memory Requirements
 
 | **Number of Parameters** | **FP 16 bits** | **8 bits (Quantized)** | **4 bits (Quantized)** | **Example Graphic Card for 4 bits** |
 | ------------------------ | -------------- | ---------------------- | ---------------------- | ----------------------------------- |
@@ -404,7 +400,7 @@ Full example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples/blob
 | **13b**                  | 48 GB          | 24 GB                  | 12 GB                  | Nvidia RTX 4070 16GB                |
 | **72b**                  | 192 GB         | 96 GB                  | 48 GB                  | Nvidia RTX 4090 24GB x 2 cards      |
 
-#### Authors
+## Authors
 
 * Sumeth Yuenyong (sumeth.yue@mahidol.edu)
 * Kobkrit Viriyayudhakorn (kobkrit@aieat.or.th)
@@ -424,7 +420,7 @@ Full example: [https://github.com/OpenThaiGPT/openthaigpt1.5\_api\_examples/blob
 * Kriangkrai Saetan (kraitan.ss21@gmail.com)
 * Pitikorn Khlaisamniang (pitikorn32@gmail.com)
 
-#### Citation
+## Citation
 
 If OpenThaiGPT has been beneficial for your work, kindly consider citing it as follows:
 

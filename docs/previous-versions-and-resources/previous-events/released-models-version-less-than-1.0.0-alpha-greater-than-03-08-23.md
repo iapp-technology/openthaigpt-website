@@ -1,51 +1,52 @@
 ---
 title: 'Released Models Version <1.0.0-alpha> (03/08/23)'
 slug: '/previous-versions-and-resources/previous-events/released-models-version-less-than-1.0.0-alpha-greater-than-03-08-23'
+description: 'Release notes for OpenThaiGPT 1.0.0-alpha (3 August 2023), the first Thai 7B LLaMA v2 Chat model allowing research and commercial use, with full change logs.'
 ---
 # 🔥 Released Models Version <1.0.0-alpha> (03/08/23)
 
-## 🇹🇭 OpenThaiGPT 1.0.0-alpha (3 August 2023) 
+## 🇹🇭 OpenThaiGPT 1.0.0-alpha (3 August 2023)
 
 🇹🇭 OpenThaiGPT Version 1.0.0-alpha is the first Thai implementation of a 7B-parameter LLaMA v2 Chat model finetuned to follow Thai translated instructions and makes use of the Huggingface LLaMA implementation.
 
 ![](</img/image-23.png>)
 
-## Web Demo:
+## Web Demo
 
-<a class="link-card" href="https://demo.openthaigpt.aieat.or.th" target="_blank" rel="noopener noreferrer"><span class="link-card-title">demo.openthaigpt.aieat.or.th</span><span class="link-card-domain">demo.openthaigpt.aieat.or.th</span></a>
+<a class="link-card" href="https://demo.openthaigpt.aieat.or.th" target="_blank" rel="noopener noreferrer"><span class="link-card-title">ทดลองใช้งาน OpenThaiGPT Web Demo</span><span class="link-card-domain">demo.openthaigpt.aieat.or.th</span></a>
 
-## Colab Demo: 
+## Colab Demo
 
-<a class="link-card" href="https://colab.research.google.com/drive/1kDQidCtY9lDpk49i7P3JjLAcJM04lawu?usp=sharing" target="_blank" rel="noopener noreferrer"><span class="link-card-title">Open in Google Colab</span><span class="link-card-domain">colab.research.google.com</span></a>
+<a class="link-card" href="https://colab.research.google.com/drive/1kDQidCtY9lDpk49i7P3JjLAcJM04lawu?usp=sharing" target="_blank" rel="noopener noreferrer"><span class="link-card-title">ทดลอง OpenThaiGPT 1.0.0-alpha — Google Colab</span><span class="link-card-domain">colab.research.google.com</span></a>
 
 ## Change Logs
 
-## 🇹🇭 Version 1.0.0-alpha (Facebook LLama V2 Model)
+### 🇹🇭 Version 1.0.0-alpha (Facebook LLama V2 Model)
 
 **Release date: 3 August 2023**
 
 🇹🇭 OpenThaiGPT Version 1.0.0-alpha is the first Thai implementation of a 7B-parameter LLaMA v2 Chat model finetuned to follow Thai translated instructions and makes use of the Huggingface LLaMA implementation.
 
-### Changes
+#### Changes
 
-(1) Using Facebook LLama v2 model 7b chat as a base model which is **pretrained on over 2 trillion token.**\
-(2) Context Length is upgrade from 2048 token to **4096 token**\
-(3) **Allow** research and **commerical use.**
+1. Using Facebook LLama v2 model 7b chat as a base model which is **pretrained on over 2 trillion token.**
+2. Context Length is upgrade from 2048 token to **4096 token**
+3. **Allow** research and **commerical use.**
 
-### License
+#### License
 
-**Source Code**: License Apache Software License 2.0.\
-**Weight**: Research and **commercial uses.**
+* **Source Code**: License Apache Software License 2.0.
+* **Weight**: Research and **commercial uses.**
 
-### Code and Weight
+#### Code and Weight
 
-**Colab Demo**: [https://colab.research.google.com/drive/1kDQidCtY9lDpk49i7P3JjLAcJM04lawu?usp=sharing](https://colab.research.google.com/drive/1kDQidCtY9lDpk49i7P3JjLAcJM04lawu?usp=sharing)\
-**Finetune Code**: [https://github.com/OpenThaiGPT/openthaigpt-finetune-010beta](https://github.com/OpenThaiGPT/openthaigpt-finetune-010beta) (Same code as OpenThaiGPT 0.1.0-beta)\
-**Inference Library**: [https://github.com/OpenThaiGPT/openthaigpt](https://github.com/OpenThaiGPT/openthaigpt)\
-**Weight (Lora Adapter)**: [https://huggingface.co/openthaigpt/openthaigpt-1.0.0-alpha-7b-chat](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-alpha-7b-chat)\
-**Weight (Huggingface Checkpoint):** [https://huggingface.co/openthaigpt/openthaigpt-1.0.0-alpha-7b-chat-ckpt-hf](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-alpha-7b-chat-ckpt-hf)
+* **Colab Demo**: [Google Colab](https://colab.research.google.com/drive/1kDQidCtY9lDpk49i7P3JjLAcJM04lawu?usp=sharing)
+* **Finetune Code**: [OpenThaiGPT/openthaigpt-finetune-010beta](https://github.com/OpenThaiGPT/openthaigpt-finetune-010beta) (Same code as OpenThaiGPT 0.1.0-beta)
+* **Inference Library**: [OpenThaiGPT/openthaigpt](https://github.com/OpenThaiGPT/openthaigpt)
+* **Weight (Lora Adapter)**: [openthaigpt/openthaigpt-1.0.0-alpha-7b-chat](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-alpha-7b-chat)
+* **Weight (Huggingface Checkpoint)**: [openthaigpt/openthaigpt-1.0.0-alpha-7b-chat-ckpt-hf](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-alpha-7b-chat-ckpt-hf)
 
-### Authors
+#### Authors
 
 * Kobkrit Viriyayudhakorn (kobkrit@aieat.or.th)
 * Sumeth Yuenyong (sumeth.yue@mahidol.edu)
@@ -64,40 +65,39 @@ slug: '/previous-versions-and-resources/previous-events/released-models-version-
 * Kriangkrai Saetan (kraitan.ss21@gmail.com)
 * Pitikorn Khlaisamniang (pitikorn32@gmail.com)
 
-\---
-
-## Version 0.1.0-beta (Facebook LLama Model)
+### Version 0.1.0-beta (Facebook LLama Model)
 
 **Release date: 16 May 2023**
 
-OpenThaiGPT Version 0.1.0-beta is a 7B-parameter LLaMA model finetuned to follow Thai translated instructions below and makes use of the Huggingface LLaMA implementation. 
+OpenThaiGPT Version 0.1.0-beta is a 7B-parameter LLaMA model finetuned to follow Thai translated instructions below and makes use of the Huggingface LLaMA implementation.
 
 #### Statistics
 
-Number of parameters: 7B\
-Dimension: 4096\
-Context Length: 2048\
-n heads: 32\
-n layers: 32\
-n tokens: 1T
+* Number of parameters: 7B
+* Dimension: 4096
+* Context Length: 2048
+* n heads: 32
+* n layers: 32
+* n tokens: 1T
 
-### License
+#### License
 
-**Source Code**: License Apache Software License 2.0.\
-**Weight**: For research use only (due to the Facebook LLama's Weight LICENSE).\
-&#xNAN;_&#x4E;ote that: A commercial use license for OpenThaiGPT 0.1.0 weight will be released later soon!_
+* **Source Code**: License Apache Software License 2.0.
+* **Weight**: For research use only (due to the Facebook LLama's Weight LICENSE).
 
-### Code and Weight
+*Note that: A commercial use license for OpenThaiGPT 0.1.0 weight will be released later soon!*
 
-**Finetune Code**: [https://github.com/OpenThaiGPT/openthaigpt-finetune-010beta](https://github.com/OpenThaiGPT/openthaigpt-finetune-010beta)\
-**Inference Library**: [https://github.com/OpenThaiGPT/openthaigpt](https://github.com/OpenThaiGPT/openthaigpt)\
-**Weight (Lora Adapter)**: [https://huggingface.co/kobkrit/openthaigpt-0.1.0-beta](https://huggingface.co/kobkrit/openthaigpt-0.1.0-beta)
+#### Code and Weight
 
-### Authors
+* **Finetune Code**: [OpenThaiGPT/openthaigpt-finetune-010beta](https://github.com/OpenThaiGPT/openthaigpt-finetune-010beta)
+* **Inference Library**: [OpenThaiGPT/openthaigpt](https://github.com/OpenThaiGPT/openthaigpt)
+* **Weight (Lora Adapter)**: [kobkrit/openthaigpt-0.1.0-beta](https://huggingface.co/kobkrit/openthaigpt-0.1.0-beta)
+
+#### Authors
 
 Kobkrit Viriyayudhakorn (kobkrit@aieat.or.th), Sumeth Yuenyong (sumeth.yue@mahidol.edu) and Thaweewat Rugsujarit (thaweewr@scg.com).
 
-### Trained Datasets
+#### Trained Datasets
 
 | Dataset Name                                                                                                                                                                                                                             | Instruction Pairs | Descriptions                                                                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------- |
@@ -112,18 +112,14 @@ Kobkrit Viriyayudhakorn (kobkrit@aieat.or.th), Sumeth Yuenyong (sumeth.yue@mahid
 | [datasets/Thaweewat/hc3-24k-th](https://huggingface.co/datasets/Thaweewat/hc3-24k-th)                                                                                                                                                    | 24,000            | Hello Simple AI Summary Dataset translated into Thai by Thaweewat Ruksujarit. |
 | OpenThaiGPT Self Instruct ([https://docs.google.com/spreadsheets/d/1BSHkpRyD5RH90E85tLWe4UzpgfDHZafE2rKxLincyWI/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1BSHkpRyD5RH90E85tLWe4UzpgfDHZafE2rKxLincyWI/edit?usp=sharing)) | 5,000             | <p>Thai SelfInstruct Dataset <br>(Automatic Generated) by OpenThaiGPT</p>     |
 
-**---**
+### Version 0.1.0-alpha (ByT5-XL Model)
 
-## Version 0.1.0-alpha (ByT5-XL Model)
+**Release date: 24 April 2023**
 
-**Release date: 24 April 2023**\
-\
-PoC Testing Website: [https://colab.research.google.com/drive/1Uds0ioOZSZrJ9m2FgW3DHlqVRFNHVRtu#scrollTo=qPJIpwuz4ltF](https://colab.research.google.com/drive/1Uds0ioOZSZrJ9m2FgW3DHlqVRFNHVRtu#scrollTo=qPJIpwuz4ltF)\
-Model and Weight: [https://huggingface.co/kobkrit/openthaigpt-0.1.0-alpha](https://huggingface.co/kobkrit/openthaigpt-0.1.0-alpha)\
-PIP Installation Page: [https://pypi.org/project/openthaigpt/](https://pypi.org/project/openthaigpt/)\
-Code Example: [https://colab.research.google.com/drive/1Uds0ioOZSZrJ9m2FgW3DHlqVRFNHVRtu#scrollTo=qPJIpwuz4ltF](https://colab.research.google.com/drive/1Uds0ioOZSZrJ9m2FgW3DHlqVRFNHVRtu#scrollTo=qPJIpwuz4ltF)\
-\
-\----
+* **PoC Testing Website**: [Google Colab](https://colab.research.google.com/drive/1Uds0ioOZSZrJ9m2FgW3DHlqVRFNHVRtu#scrollTo=qPJIpwuz4ltF)
+* **Model and Weight**: [kobkrit/openthaigpt-0.1.0-alpha](https://huggingface.co/kobkrit/openthaigpt-0.1.0-alpha)
+* **PIP Installation Page**: [pypi.org/project/openthaigpt](https://pypi.org/project/openthaigpt/)
+* **Code Example**: [Google Colab](https://colab.research.google.com/drive/1Uds0ioOZSZrJ9m2FgW3DHlqVRFNHVRtu#scrollTo=qPJIpwuz4ltF)
 
 OpenThaiGPT version 0.1.0-alpha
 
@@ -133,23 +129,21 @@ Thai First 3 billion params models
 * Support Instruction following
   * Translation to Thai
   * Explanation
-  * Paraphase
+  * Paraphrase
 * Zero-shot and Few-shot Learning
 * Pretraining Model: ByT5-XL (3.74 billion params)
-* InstructDataset: 50,000 Thai SelfInstruct 
+* InstructDataset: 50,000 Thai SelfInstruct
 * RLHF: None
 * Developer: Sumeth Yuenyong, Kobkrit Viriyayudhakorn (kobkrit@iapp.co.th)
 
-## PoC Version 0.0.4 (The Fourth PoC Version)
+### PoC Version 0.0.4 (The Fourth PoC Version)
 
-**Release date: 12 March 2023**\
-\
-PoC Testing Website: [https://colab.research.google.com/drive/13yLIifBRDQp82QO4ICs\_aEvz0N8tqVPm?usp=sharin](https://colab.research.google.com/drive/13yLIifBRDQp82QO4ICs_aEvz0N8tqVPm?usp=sharing)\
-Model and Weight: [https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.4](https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.4)\
-PIP Installation Page: [https://pypi.org/project/openthaigpt/](https://pypi.org/project/openthaigpt/)\
-Code Example: [https://github.com/OpenThaiGPT/openthaigpt-example](https://github.com/OpenThaiGPT/openthaigpt-example)\
-\
-\----
+**Release date: 12 March 2023**
+
+* **PoC Testing Website**: [Google Colab](https://colab.research.google.com/drive/13yLIifBRDQp82QO4ICs_aEvz0N8tqVPm?usp=sharing)
+* **Model and Weight**: [kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.4](https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.4)
+* **PIP Installation Page**: [pypi.org/project/openthaigpt](https://pypi.org/project/openthaigpt/)
+* **Code Example**: [OpenThaiGPT/openthaigpt-example](https://github.com/OpenThaiGPT/openthaigpt-example)
 
 OpenThaiGPT version 0.0.4
 
@@ -161,15 +155,13 @@ The Fourth PoC Model
 * RLHF: None
 * Developer: Kobkrit Viriyayudhakorn (kobkrit@iapp.co.th)
 
-## PoC Version 0.0.3 (The Third PoC Version)
+### PoC Version 0.0.3 (The Third PoC Version)
 
-**Release date: 28 February 2023**\
-\
-Model and Weight: [https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.3](https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.3)\
-PIP Installation Page: [https://pypi.org/project/openthaigpt/](https://pypi.org/project/openthaigpt/)\
-Code Example: [https://github.com/OpenThaiGPT/openthaigpt-example](https://github.com/OpenThaiGPT/openthaigpt-example)\
-\
-\----
+**Release date: 28 February 2023**
+
+* **Model and Weight**: [kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.3](https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.3)
+* **PIP Installation Page**: [pypi.org/project/openthaigpt](https://pypi.org/project/openthaigpt/)
+* **Code Example**: [OpenThaiGPT/openthaigpt-example](https://github.com/OpenThaiGPT/openthaigpt-example)
 
 OpenThaiGPT version 0.0.3
 
@@ -180,15 +172,13 @@ The Third PoC Model
 * RLHF: None
 * Developer: Kobkrit Viriyayudhakorn (kobkrit@iapp.co.th)
 
-## PoC Version 0.0.2 (The Second PoC Version)
+### PoC Version 0.0.2 (The Second PoC Version)
 
-**Release date: 27 February 2023**\
-\
-Model and Weight: [https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.2](https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.2)\
-PIP Installation Page: {Coming Soon}\
-Colab Example: {Coming Soon}\
-\
-\----
+**Release date: 27 February 2023**
+
+* **Model and Weight**: [kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.2](https://huggingface.co/kobkrit/openthaigpt-gpt2-instructgpt-poc-0.0.2)
+* **PIP Installation Page**: {Coming Soon}
+* **Colab Example**: {Coming Soon}
 
 OpenThaiGPT version 0.0.2
 
@@ -197,18 +187,15 @@ The Second PoC Model
 * Pretraining Model: GPT-2 Thai-base
 * InstructDataset: 7,000 Thai InstructGPT
 * RLHF: None
+* Developer: Kobkrit Viriyayudhakorn (kobkrit@iapp.co.th)
 
-Developer: Kobkrit Viriyayudhakorn (kobkrit@iapp.co.th)
+### PoC Version 0.0.1 (Very First PoC Version)
 
-## PoC Version 0.0.1 (Very First PoC Version)
+**Release date: 20 February 2023**
 
-**Release date: 20 February 2023**\
-\
-Model and Weight: [openthaigpt-gpt2-pantipwiki-poc](https://huggingface.co/kobkrit/openthaigpt-gpt2-pantipwiki-poc?text=Q%3A+%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B5%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%A1+A%3A) \
-PIP Installation Page: {Coming Soon}\
-Colab Example: {Coming Soon}\
-\
-\----
+* **Model and Weight**: [openthaigpt-gpt2-pantipwiki-poc](https://huggingface.co/kobkrit/openthaigpt-gpt2-pantipwiki-poc?text=Q%3A+%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B5%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%A1+A%3A)
+* **PIP Installation Page**: {Coming Soon}
+* **Colab Example**: {Coming Soon}
 
 The Very First PoC Model
 
@@ -216,6 +203,3 @@ The Very First PoC Model
 * InstructDataset: 298,678 QA Pairs getting from 70,000 Pantip katoos + Wikipedia QA by iApp
 * RLHF: None
 * Developer: Kobkrit Viriyayudhakorn (kobkrit@iapp.co.th)
-
-
-

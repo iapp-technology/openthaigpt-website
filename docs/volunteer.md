@@ -1,12 +1,15 @@
 ---
 title: 'ทีมอาสาสมัคร (Volunteer)'
 slug: '/volunteer'
+description: 'รายชื่อทีมอาสาสมัครโครงการ OpenThaiGPT ทั้ง 112 ท่าน แบ่งตามกลุ่มงาน พร้อมช่องทางการสมัครและติดต่อหัวหน้าทีม'
 ---
 # 🤟 ทีมอาสาสมัคร (Volunteer)
 
-### ต้องการสมัครอาสาสมัคร
+โครงการ OpenThaiGPT ขับเคลื่อนโดยทีมอาสาสมัคร 112 ท่าน แบ่งตามกลุ่มงานต่างๆ ดังรายชื่อในหน้านี้
 
-1. กรอกแบบฟอร์มเพื่อสมัครอาสาสมัคร [join-us.md](join-us.md "mention") และเข้า Discord
+## ต้องการสมัครอาสาสมัคร
+
+1. กรอกแบบฟอร์มเพื่อสมัครอาสาสมัครที่หน้า [ร่วมกับเรา (Join Us)](join-us.md) และเข้า Discord
 2. หากต้องการสมัครเป็นลูกทีม ติดต่อกับหัวหน้าทีมผ่านทาง Discord ที่มีอยู่แล้วในหน้านี้
 3. หากต้องการตั้งทีมใหม่ ติดต่อ @kobkrit ผ่านทาง Discord หรือเขียนอีเมล์มาที่ kobkrit@aieat.or.th
 
@@ -30,17 +33,17 @@ slug: '/volunteer'
 
 ### กลุ่ม Pretraining Language Model (50 ท่าน)
 
-#### **หัวหน้าทีม** 
+#### หัวหน้าทีม
 
 * Dr. Prachya Bookwan (ดร. ปรัชญา บุญขวัญ)
 
-#### **ประสานงาน** 
+#### ประสานงาน
 
-* Jillaphat Jaroenkantasima (Aut) /จิฬฬาพัฒน์ เจริญขัณฑสีมา (อัฐ)/\
-  Email: autsadang41@gmail.com/Discord: AutNowhereMan#5211
-
-Meeting time: ทุกวันเสาร์\
-Team Discord URL: [ https://discord.gg/MadjT3rCWp](https://discord.gg/MadjT3rCWp)
+* Jillaphat Jaroenkantasima (Aut) / จิฬฬาพัฒน์ เจริญขัณฑสีมา (อัฐ)
+  * Email: autsadang41@gmail.com
+  * Discord: AutNowhereMan#5211
+* Meeting time: ทุกวันเสาร์
+* Team Discord: [discord.gg/MadjT3rCWp](https://discord.gg/MadjT3rCWp)
 
 | Name                              | Email                            | Discord Name               |
 | --------------------------------- | -------------------------------- | -------------------------- |
@@ -94,11 +97,11 @@ Team Discord URL: [ https://discord.gg/MadjT3rCWp](https://discord.gg/MadjT3rCWp
 | Apivadee Piyatumrong              | apivadee.piy@nectec.or.th        |                            |
 | Tuengdin Vikanaiz                 | tuengdin@gmail.com               | tvikanai(Mod)#5455         |
 
-### กลุ่ม Finetuning InstructGPT และ  Reinforcement Learning with Human Feedback (27 ท่าน)
+### กลุ่ม Finetuning InstructGPT และ Reinforcement Learning with Human Feedback (27 ท่าน)
 
 #### หัวหน้าทีม
 
-* Dr. Sumeth Yuenyong   (ดร. สุเมธ ยืนยง)
+* Dr. Sumeth Yuenyong (ดร. สุเมธ ยืนยง)
 * Witthawin Sripheanpol (Ro) / วิธวินท์ ศรีเพียรพล (โร่) / ro.witthawin@gmail.com
 
 | Name                          | Email                         | Discord Name                          |
@@ -129,8 +132,6 @@ Team Discord URL: [ https://discord.gg/MadjT3rCWp](https://discord.gg/MadjT3rCWp
 | Premagorn Thaweehan(Prem)     | premagorn@gmail.com           | 2eal#1033                             |
 | Apivadee Piyatumrong          | apivadee.piy@nectec.or.th     |                                       |
 | Tuengdin Vikanaiz             | tuengdin@gmail.com            | tvikanai(Mod)#5455                    |
-
-
 
 ### กลุ่ม Safety Net Model (19 ท่าน)
 
@@ -165,7 +166,7 @@ Team Discord URL: [ https://discord.gg/MadjT3rCWp](https://discord.gg/MadjT3rCWp
 #### หัวหน้าทีม
 
 * Pornthep Ukosaramig / pornthep.u@iapp.co.th
-* อภิเดช เอมเอี่ยม  / carfowar2@gmail.com / Got#4452
+* อภิเดช เอมเอี่ยม / carfowar2@gmail.com / Got#4452
 
 | Name                           | Email                     | Discord Name     |
 | ------------------------------ | ------------------------- | ---------------- |
@@ -181,28 +182,24 @@ Team Discord URL: [ https://discord.gg/MadjT3rCWp](https://discord.gg/MadjT3rCWp
 
 #### หัวหน้าทีม
 
-* Pisarnwate Jitvimol / pisarnwate@gmail.com\
-  พิศาลเวท จิตรวิมล\
-  my\_name\_42904822
+* Pisarnwate Jitvimol (พิศาลเวท จิตรวิมล) / pisarnwate@gmail.com / my\_name\_42904822
 * Boonkong / boongui14@gmail.com
-
-
 
 ### กลุ่ม Quality Assurance ( 1 ท่าน)
 
 #### หัวหน้าทีม
 
-* Kochaporn Ratchatawuttimongkol /  kochaporn.mie@gmail.com /  kochaporn#6008
+* Kochaporn Ratchatawuttimongkol / kochaporn.mie@gmail.com / kochaporn#6008
 
 ### กลุ่มเพิ่มความสามารถพิเศษให้ OpenThaiGPT (คำผวน) (3 ท่าน)
 
-หัวหน้าทีม
+#### หัวหน้าทีม
 
-* Sittichai Simapanchaporn, sittichai.sim2020@gmail.com, jo2021#4881 
+* Sittichai Simapanchaporn, sittichai.sim2020@gmail.com, jo2021#4881
 * Keeta kummalai, keeta007@gmail.com, keeta#9984
 * Teerapat Suwannaroochi, Artteerapat@hotmail.com, T-Rex#6800
 
 ## อาสาสมัครที่กำลังหาทีม
 
-หากต้องการติดต่ออาสาสมัคร ติดต่อผ่านทาง Discord ​https://discord.gg/gKCHhGG2Mp ได้เลยครับ 
+หากต้องการติดต่ออาสาสมัคร ติดต่อผ่านทาง [Discord](https://discord.gg/gKCHhGG2Mp) ได้เลยครับ
 

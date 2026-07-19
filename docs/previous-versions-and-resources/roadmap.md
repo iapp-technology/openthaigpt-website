@@ -1,10 +1,13 @@
 ---
 title: 'แผนการดำเนินงาน Roadmap'
 slug: '/previous-versions-and-resources/roadmap'
+description: 'แผนการดำเนินงาน (Roadmap) ของโครงการ OpenThaiGPT รายไตรมาสปี 2023 ครอบคลุมการปล่อยโมเดล PoC การจัดตั้งทีม และการพัฒนา Pipeline'
 ---
 # แผนการดำเนินงาน Roadmap
 
 <figure><img src="/img/image-19.png" alt=""><figcaption><p>OpenThaiGPT Roadmap</p></figcaption></figure>
+
+โครงการ OpenThaiGPT วางแผนการดำเนินงานในปี 2023 แบ่งตามรายไตรมาสดังนี้
 
 ## Q1 2023
 

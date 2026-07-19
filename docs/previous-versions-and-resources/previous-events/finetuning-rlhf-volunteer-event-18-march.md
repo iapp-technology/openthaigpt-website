@@ -1,6 +1,7 @@
 ---
 title: 'Finetuning / RLHF Volunteer Event (18 March)'
 slug: '/previous-versions-and-resources/previous-events/finetuning-rlhf-volunteer-event-18-march'
+description: 'งาน First Meet ของทีม Finetuning / RLHF วันเสาร์ที่ 18 มีนาคม 2566 เวลา 13:00-14:00 เพื่อจัดกลุ่มอาสาสมัครเป็นทีมย่อยและหาตัวแทนแต่ละกลุ่ม'
 ---
 # Finetuning / RLHF Volunteer Event (18 March)
 
@@ -10,20 +11,20 @@ slug: '/previous-versions-and-resources/previous-events/finetuning-rlhf-voluntee
 
 โดยเป้าหมายหลักของกิจกรรมในครั้งนี้เพื่อ จัดกลุ่มอาสาสมัครทุกท่านเป็นทีมย่อยๆ และหาตัวแทนของแต่ละกลุ่มย่อย ที่จะมาช่วยกันพัฒนา Finetuning / RLHF Volunteer ครับ
 
-**Agenda ของกิจกรรม First Meet ครับ:** 
+## Agenda ของกิจกรรม First Meet
 
-\- 13:00-13:30 แนะนำ Finetuning / RLHF และอธิบายถึงความสำคัญ รวมถึงแผนการปัจจุบัน \
-\- 13:30-13:40 อธิบายถึงกลุ่มย่อย และหน้าที่ \
-\- 13:40-13:50 Q\&A \
-\- 13:50-14:00 อาสาสมัครลงชื่อเข้ากลุ่มที่ต้องการ\
-\
-Join Zoom Meeting\
-[https://us06web.zoom.us/j/89540845246?pwd=dzVmSzFJVWpwVFkwMjZ0VVAyalBPUT09](https://www.google.com/url?q=https://us06web.zoom.us/j/89540845246?pwd%3DdzVmSzFJVWpwVFkwMjZ0VVAyalBPUT09\&sa=D\&source=calendar\&ust=1679476882431004\&usg=AOvVaw15q7Ve_E0VX7okjhopJzn0)\
-\
-Meeting ID: 895 4084 5246\
-Passcode: 005687
+* 13:00-13:30 แนะนำ Finetuning / RLHF และอธิบายถึงความสำคัญ รวมถึงแผนการปัจจุบัน
+* 13:30-13:40 อธิบายถึงกลุ่มย่อย และหน้าที่
+* 13:40-13:50 Q&A
+* 13:50-14:00 อาสาสมัครลงชื่อเข้ากลุ่มที่ต้องการ
 
-\---
+## Join Zoom Meeting
+
+<a class="link-card" href="https://us06web.zoom.us/j/89540845246?pwd=dzVmSzFJVWpwVFkwMjZ0VVAyalBPUT09" target="_blank" rel="noopener noreferrer"><span class="link-card-title">เข้าร่วมงาน First Meet — Zoom</span><span class="link-card-domain">zoom.us</span></a>
+
+* Meeting ID: 895 4084 5246
+* Passcode: 005687
+
+## บันทึกวิดีโอ
 
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/56nVVSDBgO8" title="YouTube video" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
-

@@ -1,0 +1,166 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.📖 เริ่มต้นใช้งาน (Getting Started)": {
+    "message": "📖 Getting Started",
+    "description": "The label for category '📖 เริ่มต้นใช้งาน (Getting Started)' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.👥 ชุมชน (Community)": {
+    "message": "👥 Community",
+    "description": "The label for category '👥 ชุมชน (Community)' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.🗂 Previous Versions and Resources": {
+    "message": "🗂 Previous Versions and Resources",
+    "description": "The label for category '🗂 Previous Versions and Resources' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.💻 Released Code / Colabs": {
+    "message": "💻 Released Code / Colabs",
+    "description": "The label for category '💻 Released Code / Colabs' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Open Resources": {
+    "message": "Open Resources",
+    "description": "The label for category 'Open Resources' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Previous Events": {
+    "message": "Previous Events",
+    "description": "The label for category 'Previous Events' in sidebar 'docs'"
+  },
+  "sidebar.docs.doc.🏠 ยินดีต้อนรับสู่ OpenThaiGPT 1.6 และ OpenThaiGPT R1": {
+    "message": "🏠 Welcome to OpenThaiGPT 1.6 and OpenThaiGPT R1",
+    "description": "The label for the doc item '🏠 ยินดีต้อนรับสู่ OpenThaiGPT 1.6 และ OpenThaiGPT R1' in sidebar 'docs', linking to the doc index"
+  },
+  "sidebar.docs.doc.▶️ Colab Demo!": {
+    "message": "▶️ Colab Demo!",
+    "description": "The label for the doc item '▶️ Colab Demo!' in sidebar 'docs', linking to the doc colab-demo"
+  },
+  "sidebar.docs.doc.📚 OpenThaiRAG": {
+    "message": "📚 OpenThaiRAG",
+    "description": "The label for the doc item '📚 OpenThaiRAG' in sidebar 'docs', linking to the doc openthairag"
+  },
+  "sidebar.docs.doc.❤️ องค์กรที่ร่วมสนับสนุน (Sponsors)": {
+    "message": "❤️ Sponsors",
+    "description": "The label for the doc item '❤️ องค์กรที่ร่วมสนับสนุน (Sponsors)' in sidebar 'docs', linking to the doc sponsors"
+  },
+  "sidebar.docs.doc.🤟 ทีมอาสาสมัคร (Volunteer)": {
+    "message": "🤟 Volunteer Team",
+    "description": "The label for the doc item '🤟 ทีมอาสาสมัคร (Volunteer)' in sidebar 'docs', linking to the doc volunteer"
+  },
+  "sidebar.docs.doc.📋 กฎกติกาความร่วมมือ (Rules)": {
+    "message": "📋 Collaboration Rules",
+    "description": "The label for the doc item '📋 กฎกติกาความร่วมมือ (Rules)' in sidebar 'docs', linking to the doc rules"
+  },
+  "sidebar.docs.doc.🤝 ร่วมกับเรา (Join Us)": {
+    "message": "🤝 Join Us",
+    "description": "The label for the doc item '🤝 ร่วมกับเรา (Join Us)' in sidebar 'docs', linking to the doc join-us"
+  },
+  "sidebar.docs.doc.📄 License": {
+    "message": "📄 License",
+    "description": "The label for the doc item '📄 License' in sidebar 'docs', linking to the doc license"
+  },
+  "sidebar.docs.doc.Pretraining LLM": {
+    "message": "Pretraining LLM",
+    "description": "The label for the doc item 'Pretraining LLM' in sidebar 'docs', linking to the doc previous-versions-and-resources/released-code-colabs/pretraining-llm"
+  },
+  "sidebar.docs.doc.🆕 InstructGPT Finetuning": {
+    "message": "🆕 InstructGPT Finetuning",
+    "description": "The label for the doc item '🆕 InstructGPT Finetuning' in sidebar 'docs', linking to the doc previous-versions-and-resources/released-code-colabs/instructgpt-finetuning"
+  },
+  "sidebar.docs.doc.Reinforcement Learning with Human Feedback (RLHF)": {
+    "message": "Reinforcement Learning with Human Feedback (RLHF)",
+    "description": "The label for the doc item 'Reinforcement Learning with Human Feedback (RLHF)' in sidebar 'docs', linking to the doc previous-versions-and-resources/released-code-colabs/reinforcement-learning-with-human-feedback-rlhf"
+  },
+  "sidebar.docs.doc.😍 การช่วยกันสร้าง Dataset สนทนา Chat ภาษาไทย!": {
+    "message": "😍 Building the Thai Chat Dataset Together!",
+    "description": "The label for the doc item '😍 การช่วยกันสร้าง Dataset สนทนา Chat ภาษาไทย!' in sidebar 'docs', linking to the doc previous-versions-and-resources/dataset-chat"
+  },
+  "sidebar.docs.doc.📄 Released Datasets (14/04/23)": {
+    "message": "📄 Released Datasets (14/04/23)",
+    "description": "The label for the doc item '📄 Released Datasets (14/04/23)' in sidebar 'docs', linking to the doc previous-versions-and-resources/released-datasets-14-04-23"
+  },
+  "sidebar.docs.doc.📦 Released OpenThaiGPT Pip Python Library <0.1.1> (26/05/23)": {
+    "message": "📦 Released OpenThaiGPT Pip Python Library <0.1.1> (26/05/23)",
+    "description": "The label for the doc item '📦 Released OpenThaiGPT Pip Python Library <0.1.1> (26/05/23)' in sidebar 'docs', linking to the doc previous-versions-and-resources/released-openthaigpt-pip-python-library-less-than-0.1.1-greater-than-26-05-23"
+  },
+  "sidebar.docs.doc.🔥 Released OpenThaiGPT 7b <1.0.0-beta> (16/08/23)": {
+    "message": "🔥 Released OpenThaiGPT 7b <1.0.0-beta> (16/08/23)",
+    "description": "The label for the doc item '🔥 Released OpenThaiGPT 7b <1.0.0-beta> (16/08/23)' in sidebar 'docs', linking to the doc previous-versions-and-resources/released-openthaigpt-7b-less-than-1.0.0-beta-greater-than-16-08-23"
+  },
+  "sidebar.docs.doc.🔥 Released OpenThaiGPT 13b <1.0.0-beta> (20/12/23)": {
+    "message": "🔥 Released OpenThaiGPT 13b <1.0.0-beta> (20/12/23)",
+    "description": "The label for the doc item '🔥 Released OpenThaiGPT 13b <1.0.0-beta> (20/12/23)' in sidebar 'docs', linking to the doc previous-versions-and-resources/released-openthaigpt-13b-less-than-1.0.0-beta-greater-than-20-12-23"
+  },
+  "sidebar.docs.doc.แผนการดำเนินงาน Roadmap": {
+    "message": "Roadmap",
+    "description": "The label for the doc item 'แผนการดำเนินงาน Roadmap' in sidebar 'docs', linking to the doc previous-versions-and-resources/roadmap"
+  },
+  "sidebar.docs.doc.🆕 Free Working Datasets": {
+    "message": "🆕 Free Working Datasets",
+    "description": "The label for the doc item '🆕 Free Working Datasets' in sidebar 'docs', linking to the doc previous-versions-and-resources/open-resources/free-working-datasets"
+  },
+  "sidebar.docs.doc.Related Paper / Knowledge": {
+    "message": "Related Paper / Knowledge",
+    "description": "The label for the doc item 'Related Paper / Knowledge' in sidebar 'docs', linking to the doc previous-versions-and-resources/open-resources/related-paper-knowledge"
+  },
+  "sidebar.docs.doc.Computing Resources": {
+    "message": "Computing Resources",
+    "description": "The label for the doc item 'Computing Resources' in sidebar 'docs', linking to the doc previous-versions-and-resources/open-resources/computing-resources"
+  },
+  "sidebar.docs.doc.🥳 OpenThaiGPT Meet Up #2": {
+    "message": "🥳 OpenThaiGPT Meet Up #2",
+    "description": "The label for the doc item '🥳 OpenThaiGPT Meet Up #2' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/openthaigpt-meet-up-2"
+  },
+  "sidebar.docs.doc.🆕 อัพเดท! จากทีม Finetune (8 Apr)": {
+    "message": "🆕 Update from the Finetune Team (8 Apr)",
+    "description": "The label for the doc item '🆕 อัพเดท! จากทีม Finetune (8 Apr)' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/finetune-8-apr"
+  },
+  "sidebar.docs.doc.Core-team Volunteer Meeting 19 March 15:30": {
+    "message": "Core-team Volunteer Meeting 19 March 15:30",
+    "description": "The label for the doc item 'Core-team Volunteer Meeting 19 March 15:30' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/core-team-volunteer-meeting-19-march-15-30"
+  },
+  "sidebar.docs.doc.Finetuning / RLHF Volunteer Event (18 March)": {
+    "message": "Finetuning / RLHF Volunteer Event (18 March)",
+    "description": "The label for the doc item 'Finetuning / RLHF Volunteer Event (18 March)' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/finetuning-rlhf-volunteer-event-18-march"
+  },
+  "sidebar.docs.doc.Safety Net Volunteer Event (12 March 19:00-19:45)": {
+    "message": "Safety Net Volunteer Event (12 March 19:00-19:45)",
+    "description": "The label for the doc item 'Safety Net Volunteer Event (12 March 19:00-19:45)' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/safety-net-volunteer-event-12-march-19-00-19-45"
+  },
+  "sidebar.docs.doc.Pre-training Volunteer Event (11 March 19:00-20:15)": {
+    "message": "Pre-training Volunteer Event (11 March 19:00-20:15)",
+    "description": "The label for the doc item 'Pre-training Volunteer Event (11 March 19:00-20:15)' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/pre-training-volunteer-event-11-march-19-00-20-15"
+  },
+  "sidebar.docs.doc.Volunteer Meetup #1 (Zoom) 5 March 13:00": {
+    "message": "Volunteer Meetup #1 (Zoom) 5 March 13:00",
+    "description": "The label for the doc item 'Volunteer Meetup #1 (Zoom) 5 March 13:00' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/volunteer-meetup-1-zoom-5-march-13-00"
+  },
+  "sidebar.docs.doc.First Meet Up (25 Feb 2023)!": {
+    "message": "First Meet Up (25 Feb 2023)!",
+    "description": "The label for the doc item 'First Meet Up (25 Feb 2023)!' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/first-meet-up-25-feb-2023"
+  },
+  "sidebar.docs.doc.🔥 Released Models Version <0.1.0-beta> (16/05/23)": {
+    "message": "🔥 Released Models Version <0.1.0-beta> (16/05/23)",
+    "description": "The label for the doc item '🔥 Released Models Version <0.1.0-beta> (16/05/23)' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/released-models-version-less-than-0.1.0-beta-greater-than-16-05-23"
+  },
+  "sidebar.docs.doc.🔥 Released Models Version <1.0.0-alpha> (03/08/23)": {
+    "message": "🔥 Released Models Version <1.0.0-alpha> (03/08/23)",
+    "description": "The label for the doc item '🔥 Released Models Version <1.0.0-alpha> (03/08/23)' in sidebar 'docs', linking to the doc previous-versions-and-resources/previous-events/released-models-version-less-than-1.0.0-alpha-greater-than-03-08-23"
+  },
+  "sidebar.docs.doc.ChatGPT สร้างขึ้นมาได้อย่างไร (How to build ChatGPT?)": {
+    "message": "How to Build ChatGPT?",
+    "description": "The label for the doc item 'ChatGPT สร้างขึ้นมาได้อย่างไร (How to build ChatGPT?)' in sidebar 'docs', linking to the doc previous-versions-and-resources/chatgpt-how-to-build-chatgpt"
+  },
+  "sidebar.docs.doc.🔥 OpenThaiGPT 1.0.0 <8 Apr 2024>": {
+    "message": "🔥 OpenThaiGPT 1.0.0 <8 Apr 2024>",
+    "description": "The label for the doc item '🔥 OpenThaiGPT 1.0.0 <8 Apr 2024>' in sidebar 'docs', linking to the doc openthaigpt-1.0.0-less-than-8-apr-2024-greater-than"
+  },
+  "sidebar.docs.doc.OpenThaiGPT Version 1.0": {
+    "message": "OpenThaiGPT Version 1.0",
+    "description": "The label for the doc item 'OpenThaiGPT Version 1.0' in sidebar 'docs', linking to the doc previous-versions-and-resources/openthaigpt-version-1.0"
+  },
+  "sidebar.docs.doc.OpenThaiGPT 1.5": {
+    "message": "OpenThaiGPT 1.5",
+    "description": "The label for the doc item 'OpenThaiGPT 1.5' in sidebar 'docs', linking to the doc previous-versions-and-resources/openthaigpt-1.5"
+  }
+}

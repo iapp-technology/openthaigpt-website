@@ -1,17 +1,17 @@
 ---
 title: 'OpenThaiGPT 1.0.0 <8 Apr 2024>'
 slug: '/openthaigpt-1.0.0-less-than-8-apr-2024-greater-than'
+description: 'OpenThaiGPT 1.0.0 — 7b, 13b and 70b Thai language chat models based on LLaMA v2, released on April 8, 2024.'
 ---
 # 🔥 OpenThaiGPT 1.0.0 <8 Apr 2024>
 
-## 🇹🇭 OpenThaiGPT 1.0.0
+![OpenThaiGPT](https://1173516064-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FvvbWvIIe82Iv1yHaDBC5%2Fuploads%2Fb8eiMDaqiEQL6ahbAY0h%2Fimage.png?alt=media\&token=6fce78fd-2cca-4c0a-9648-bd5518e644ce)
 
-[![OpenThaiGPT](https://1173516064-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FvvbWvIIe82Iv1yHaDBC5%2Fuploads%2Fb8eiMDaqiEQL6ahbAY0h%2Fimage.png?alt=media\&token=6fce78fd-2cca-4c0a-9648-bd5518e644ce)](https://1173516064-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FvvbWvIIe82Iv1yHaDBC5%2Fuploads%2Fb8eiMDaqiEQL6ahbAY0h%2Fimage.png?alt=media\&token=6fce78fd-2cca-4c0a-9648-bd5518e644ce)\
 [More Info](https://openthaigpt.aieat.or.th/)
 
 🇹🇭 **OpenThaiGPT 7b, 13b, 70b Version 1.0.0** is an advanced 7, 13, 70-billion-parameter Thai language chat model based on LLaMA v2 released on April 8, 2024. It has been specifically fine-tuned for Thai instructions and enhanced by incorporating over 10,000 of the most commonly used Thai words into the large language model's (LLM) dictionary, significantly boosting its response speed.
 
-### Highlights
+## Highlights
 
 * **Leading-edge Thai language LLM**, setting new benchmarks by achieving the highest average scores across several Thai language exams when compared to all other open-source Thai LLMs.
 * **The First 70b Thai opensource LLM**, achieving the higher Thai exams than OpenAI GPT 3.5, Google Gemini, and Claude 3 Haiku.
@@ -21,20 +21,20 @@ slug: '/openthaigpt-1.0.0-less-than-8-apr-2024-greater-than'
 * Pretrained upon a foundation of **more than 65 billion Thai language words** and meticulously fine-tuned with over 1 million Thai instruction examples.
 * Capable of understanding and processing **input contexts of up to 4096 Thai words**, allowing for detailed and complex instructions.
 
-### Download Models from Huggingface
+## Download Models from Huggingface
 
-7b - [https://huggingface.co/openthaigpt/openthaigpt-1.0.0-7b-chat](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-7b-chat)\
-7b (GGUF) - [https://huggingface.co/openthaigpt/openthaigpt-1.0.0-7b-chat-gguf](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-7b-chat-gguf)\
-13b - [https://huggingface.co/openthaigpt/openthaigpt-1.0.0-13b-chat](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-13b-chat)\
-70b - [https://huggingface.co/openthaigpt/openthaigpt-1.0.0-70b-chat](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-70b-chat)
+* 7b — [openthaigpt/openthaigpt-1.0.0-7b-chat](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-7b-chat)
+* 7b (GGUF) — [openthaigpt/openthaigpt-1.0.0-7b-chat-gguf](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-7b-chat-gguf)
+* 13b — [openthaigpt/openthaigpt-1.0.0-13b-chat](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-13b-chat)
+* 70b — [openthaigpt/openthaigpt-1.0.0-70b-chat](https://huggingface.co/openthaigpt/openthaigpt-1.0.0-70b-chat)
 
-### Pipeline
+## Pipeline
 
-[https://colab.research.google.com/drive/1w1giDWhmq3WIUCK4AISFJtGIqiPDtRSC?usp=sharing](https://colab.research.google.com/drive/1w1giDWhmq3WIUCK4AISFJtGIqiPDtRSC?usp=sharing)
+<a class="link-card" href="https://colab.research.google.com/drive/1w1giDWhmq3WIUCK4AISFJtGIqiPDtRSC?usp=sharing" target="_blank" rel="noopener noreferrer"><span class="link-card-title">OpenThaiGPT 1.0.0 Pipeline (Load, Finetune, Inference) — Google Colab</span><span class="link-card-domain">colab.research.google.com</span></a>
 
-### Benchmark by OpenThaiGPT Eval
+## Benchmark by OpenThaiGPT Eval
 
-\*\* Please take a look at `OTG 7b, 13b and 70b (April 2024)` for this model's evaluation result.
+**Note:** Please take a look at `OTG 7b, 13b and 70b (April 2024)` for this model's evaluation result.
 
 | **Exams**                               | **OTG 7b (Aug 2023)** | **OTG 13b (Dec 2023)** | OTG 7b (April 2024) | **OTG 13b (April 2024)** | **OTG 70b (April 2024)** | **SeaLLM 7b v1** | **SeaLLM 7b v2** | **SeaLion 7b** | **WanchanGLM 7b** | **Sailor-7b-Chat** | **TyphoonGPT 7b Instruct** | **GPT3.5** | **GPT4** | **Gemini Pro** | **Gemini 1.5** | **Claude 3 Haiku** | **Claude 3 Sonnet** | **Claude 3 Opus** |
 | --------------------------------------- | --------------------- | ---------------------- | ------------------- | ------------------------ | ------------------------ | ---------------- | ---------------- | -------------- | ----------------- | ------------------ | -------------------------- | ---------- | -------- | -------------- | -------------- | ------------------ | ------------------- | ----------------- |
@@ -49,27 +49,27 @@ slug: '/openthaigpt-1.0.0-less-than-8-apr-2024-greater-than'
 | **ONET M6**                             | 21.14%                | 28.87%                 | 22.53%              | 23.32%                   | 42.85%                   | 15.09%           | 19.48%           | 16.96%         | 20.67%            | 28.64%             | 27.46%                     | 34.44%     | 46.29%   | 45.53%         | 50.23%         | 34.79%             | 38.49%              | 48.56%            |
 | **AVERAGE SCORE**                       | 23.83%                | 37.27%                 | 38.40%              | 40.33%                   | 55.87%                   | 18.06%           | 33.56%           | 27.44%         | 23.75%            | 37.28%             | 37.67%                     | 43.07%     | 60.68%   | 52.30%         | 52.89%         | 50.65%             | 56.81%              | 68.32%            |
 
-Thai language multiple choice exams, Test on unseen test sets, Zero-shot learning. Benchmark source code and exams information: [https://github.com/OpenThaiGPT/openthaigpt\_eval](https://github.com/OpenThaiGPT/openthaigpt_eval)
+Thai language multiple choice exams, Test on unseen test sets, Zero-shot learning. Benchmark source code and exams information: [OpenThaiGPT/openthaigpt\_eval](https://github.com/OpenThaiGPT/openthaigpt_eval)
 
 (Updated on: 7 April 2024)
 
-### Licenses
+## Licenses
 
-**Source Code**: License Apache Software License 2.0.\
-**Weight**: Research and **Commercial uses**.<br>
+* **Source Code**: Apache Software License 2.0
+* **Weight**: Research and **Commercial uses**
 
-### Sponsors
+## Sponsors
 
 ![](https://cdn-uploads.huggingface.co/production/uploads/5fcd9c426d942eaf4d1ebd30/FDC9WYN2iykQbVW1rY4q5.png)
 
-### Supports
+## Supports
 
-* Official website: [https://openthaigpt.aieat.or.th](https://openthaigpt.aieat.or.th/)
-* Facebook page: [https://web.facebook.com/groups/openthaigpt](https://web.facebook.com/groups/openthaigpt)
-* A Discord server for discussion and support [here](https://discord.gg/rUTp6dfVUF)
+* Official website: [openthaigpt.aieat.or.th](https://openthaigpt.aieat.or.th/)
+* Facebook page: [OpenThaiGPT Group](https://web.facebook.com/groups/openthaigpt)
+* Discord server for discussion and support: [discord.gg/rUTp6dfVUF](https://discord.gg/rUTp6dfVUF)
 * E-mail: [kobkrit@aieat.or.th](mailto:kobkrit@aieat.or.th)
 
-### Prompt Format
+## Prompt Format
 
 Prompt format is based on Llama2 with a small modification (Adding "###" to specify the context part)
 
@@ -81,13 +81,13 @@ Prompt format is based on Llama2 with a small modification (Adding "###" to spec
 {human_turn1}###{context_turn1} [/INST]{assistant_turn1}</s><s>{human_turn2}###{context_turn2} [/INST] ...
 ```
 
-#### System prompt:
+### System prompt
 
 ```
 You are a question answering assistant. Answer the question as truthful and helpful as possible คุณคือผู้ช่วยตอบคำถาม จงตอบคำถามอย่างถูกต้องและมีประโยชน์ที่สุด
 ```
 
-#### Examples
+### Examples
 
 **Single Turn Conversation Example**
 
@@ -178,9 +178,9 @@ You are a question answering assistant. Answer the question as truthful and help
 กรุงเทพมหานครมีพื้นที่ทั้งหมด 1,568.737 ตร.กม.</s><s>และประชากรล่ะ [/INST]
 ```
 
-### How to use
+## How to use
 
-#### Huggingface
+### Huggingface
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -207,9 +207,9 @@ outputs = model.generate(inputs, max_length=512, num_return_sequences=1)
 print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
 
-#### vLLM
+### vLLM
 
-1. Install VLLM ([https://github.com/vllm-project/vllm](https://github.com/vllm-project/vllm))
+1. Install vLLM ([vllm-project/vllm](https://github.com/vllm-project/vllm))
 2. Run server
 
 ```bash
@@ -225,7 +225,7 @@ curl --request POST \
     --data '{"prompt": "<s>[INST] <<SYS>>\nYou are a question answering assistant. Answer the question as truthful and helpful as possible คุณคือผู้ช่วยตอบคำถาม จงตอบคำถามอย่างถูกต้องและมีประโยชน์ที่สุด\n<</SYS>>\n\nอยากลดความอ้วนต้องทำอย่างไร [/INST]","use_beam_search": false, "temperature": 0.1, "max_tokens": 512, "top_p": 0.75, "top_k": 40, "frequency_penalty": 0.3 "stop": "</s>"}'
 ```
 
-#### LlamaCPP (for GGUF)
+### LlamaCPP (for GGUF)
 
 1. Build and Install LlamaCPP (LLAMA\_CUBLAS=1 is for GPU inference)
 
@@ -253,7 +253,7 @@ curl --location 'http://localhost:8000/completion' \
 }'
 ```
 
-#### GPU Memory Requirements
+### GPU Memory Requirements
 
 | **Number of Parameters** | **FP 16 bits** | **8 bits (Quantized)** | **4 bits (Quantized)** | **Example Graphic Card for 4 bits** |
 | ------------------------ | -------------- | ---------------------- | ---------------------- | ----------------------------------- |
@@ -261,7 +261,7 @@ curl --location 'http://localhost:8000/completion' \
 | **13b**                  | 48 GB          | 24 GB                  | 12 GB                  | Nvidia RTX 4070 16GB                |
 | **70b**                  | 192 GB         | 96 GB                  | 48 GB                  | Nvidia RTX 4090 24GB x 2 cards      |
 
-#### Authors
+### Authors
 
 * Kobkrit Viriyayudhakorn ([kobkrit@aieat.or.th](mailto:kobkrit@aieat.or.th))
 * Sumeth Yuenyong ([sumeth.yue@mahidol.edu](mailto:sumeth.yue@mahidol.edu))

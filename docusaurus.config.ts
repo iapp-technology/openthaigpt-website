@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'OpenThaiGPT',
+  title: 'OpenThai',
   tagline: 'โมเดลภาษาขนาดใหญ่ Free และ Opensource เพื่อคนไทยทุกคน',
   favicon: 'img/favicon.png',
 
@@ -13,10 +13,15 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
 
-  // Content is Thai-first (the old GitBook wrongly declared lang="en").
+  // Thai-first with English and Simplified Chinese translations.
   i18n: {
     defaultLocale: 'th',
-    locales: ['th'],
+    locales: ['th', 'en', 'zh-Hans'],
+    localeConfigs: {
+      th: {label: 'ไทย', htmlLang: 'th'},
+      en: {label: 'English', htmlLang: 'en'},
+      'zh-Hans': {label: '简体中文', htmlLang: 'zh-Hans'},
+    },
   },
 
   // .md files (the converted GitBook content) are parsed as CommonMark so the
@@ -55,8 +60,8 @@ const config: Config = {
         hashed: true,
         // lunr-languages' Thai tokenizer crashes lunr at index time
         // (token.update is not a function); whitespace tokenization still
-        // indexes Thai text with acceptable recall.
-        language: ['en'],
+        // indexes Thai text with acceptable recall. zh is supported.
+        language: ['en', 'zh'],
         docsRouteBasePath: '/',
         indexBlog: false,
         highlightSearchTermsOnTargetPage: true,
@@ -73,15 +78,15 @@ const config: Config = {
     announcementBar: {
       id: 'otg-1-6-r1',
       content:
-        '🚀 OpenThaiGPT 1.6 72b และ OpenThaiGPT R1 32b เปิดให้ใช้งานแล้ว — <a target="_blank" rel="noopener noreferrer" href="https://huggingface.co/openthaigpt">ดาวน์โหลดที่ Hugging Face</a>',
+        '📢 OpenThaiGPT กำลังเปลี่ยนชื่อเป็น <strong>OpenThai</strong> พร้อมโลโก้ใหม่ — <a href="/openthai-rebranding">อ่านประกาศ</a>',
       backgroundColor: '#101b3f',
       textColor: '#ffffff',
       isCloseable: true,
     },
     navbar: {
-      title: 'OpenThaiGPT',
+      title: 'OpenThai',
       logo: {
-        alt: 'OpenThaiGPT',
+        alt: 'OpenThai',
         src: 'img/logo.png',
       },
       items: [
@@ -95,6 +100,7 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {type: 'localeDropdown', position: 'right'},
       ],
     },
     footer: {
