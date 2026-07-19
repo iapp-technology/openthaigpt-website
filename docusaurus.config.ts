@@ -77,8 +77,10 @@ const config: Config = {
     },
     announcementBar: {
       id: 'otg-1-6-r1',
+      // The announcement bar is not covered by Docusaurus i18n, so keep it
+      // short and bilingual.
       content:
-        '📢 OpenThaiGPT กำลังเปลี่ยนชื่อเป็น <strong>OpenThai</strong> พร้อมโลโก้ใหม่ — <a href="/openthai-rebranding">อ่านประกาศ</a>',
+        '📢 OpenThaiGPT → <strong>OpenThai</strong> — ชื่อและโลโก้ใหม่ / new name & logo · <a href="/openthai-rebranding">อ่านประกาศ / Read more</a>',
       backgroundColor: '#101b3f',
       textColor: '#ffffff',
       isCloseable: true,
