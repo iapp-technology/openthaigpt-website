@@ -189,7 +189,7 @@ curl -X POST 'http://127.0.0.1:8000/v1/chat/completions' \
 
 ## การสนับสนุน
 
-* เว็บไซต์อย่างเป็นทางการ: [openthaigpt.aieat.or.th](https://openthaigpt.aieat.or.th)
+* เว็บไซต์อย่างเป็นทางการ: [openthai.aieat.or.th](https://openthai.aieat.or.th)
 * เพจ Facebook: [กลุ่ม OpenThaiGPT](https://web.facebook.com/groups/openthaigpt)
 * เซิร์ฟเวอร์ Discord สำหรับการสนทนาและสนับสนุน: [discord.gg/rUTp6dfVUF](https://discord.gg/rUTp6dfVUF)
 * อีเมล: [kobkrit@iapp.co.th](mailto:kobkrit@iapp.co.th)

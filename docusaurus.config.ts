@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'โมเดลภาษาขนาดใหญ่ Free และ Opensource เพื่อคนไทยทุกคน',
   favicon: 'img/favicon.png',
 
-  url: 'https://openthaigpt.aieat.or.th',
+  url: 'https://openthai.aieat.or.th',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
@@ -76,7 +76,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     announcementBar: {
-      id: 'otg-1-6-r1',
+      id: 'otg-rebrand-openthai',
       // The announcement bar is not covered by Docusaurus i18n, so keep it
       // short and bilingual.
       content:
@@ -138,7 +138,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} สมาคมผู้ประกอบการปัญญาประดิษฐ์ประเทศไทย (AIEAT) · OpenThaiGPT — Free and Open-source Thai LLM`,
+      copyright: `© ${new Date().getFullYear()} สมาคมผู้ประกอบการปัญญาประดิษฐ์ประเทศไทย (AIEAT) · OpenThai (formerly OpenThaiGPT) — Free and Open-source Thai LLM`,
     },
     prism: {
       theme: prismThemes.github,

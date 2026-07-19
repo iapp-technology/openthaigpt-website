@@ -189,7 +189,7 @@ curl -X POST 'http://127.0.0.1:8000/v1/chat/completions' \
 
 ## 支持与联系
 
-* 官方网站：[openthaigpt.aieat.or.th](https://openthaigpt.aieat.or.th)
+* 官方网站：[openthai.aieat.or.th](https://openthai.aieat.or.th)
 * Facebook 主页：[OpenThaiGPT 社群](https://web.facebook.com/groups/openthaigpt)
 * 用于交流与支持的 Discord 服务器：[discord.gg/rUTp6dfVUF](https://discord.gg/rUTp6dfVUF)
 * 电子邮箱：[kobkrit@iapp.co.th](mailto:kobkrit@iapp.co.th)

@@ -7,7 +7,7 @@ description: 'OpenThaiGPT 1.0.0 — 7b, 13b and 70b Thai language chat models ba
 
 ![OpenThaiGPT](https://1173516064-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FvvbWvIIe82Iv1yHaDBC5%2Fuploads%2Fb8eiMDaqiEQL6ahbAY0h%2Fimage.png?alt=media\&token=6fce78fd-2cca-4c0a-9648-bd5518e644ce)
 
-[More Info](https://openthaigpt.aieat.or.th/)
+[More Info](https://openthai.aieat.or.th/)
 
 🇹🇭 **OpenThaiGPT 7b, 13b, 70b Version 1.0.0** is an advanced 7, 13, 70-billion-parameter Thai language chat model based on LLaMA v2 released on April 8, 2024. It has been specifically fine-tuned for Thai instructions and enhanced by incorporating over 10,000 of the most commonly used Thai words into the large language model's (LLM) dictionary, significantly boosting its response speed.
 
@@ -64,7 +64,7 @@ Thai language multiple choice exams, Test on unseen test sets, Zero-shot learnin
 
 ## Supports
 
-* Official website: [openthaigpt.aieat.or.th](https://openthaigpt.aieat.or.th/)
+* Official website: [openthai.aieat.or.th](https://openthai.aieat.or.th/)
 * Facebook page: [OpenThaiGPT Group](https://web.facebook.com/groups/openthaigpt)
 * Discord server for discussion and support: [discord.gg/rUTp6dfVUF](https://discord.gg/rUTp6dfVUF)
 * E-mail: [kobkrit@aieat.or.th](mailto:kobkrit@aieat.or.th)

@@ -1,6 +1,6 @@
 # OpenThai Website
 
-Source of https://openthaigpt.aieat.or.th — the OpenThai (formerly OpenThaiGPT)
+Source of https://openthai.aieat.or.th — the OpenThai (formerly OpenThaiGPT)
 documentation site, built with [Docusaurus](https://docusaurus.io). Migrated from
 GitBook ([openthaigpt-gitbook](https://github.com/iapp-technology/openthaigpt-gitbook));
 content now lives in `docs/` and is edited directly in this repo.

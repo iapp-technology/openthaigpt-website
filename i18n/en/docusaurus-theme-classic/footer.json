@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=iApp Technology linking to https://iapp.co.th"
   },
   "copyright": {
-    "message": "© 2026 Artificial Intelligence Entrepreneur Association of Thailand (AIEAT) · OpenThaiGPT — Free and Open-source Thai LLM",
+    "message": "© 2026 Artificial Intelligence Entrepreneur Association of Thailand (AIEAT) · OpenThai (formerly OpenThaiGPT) — Free and Open-source Thai LLM",
     "description": "The footer copyright"
   }
 }

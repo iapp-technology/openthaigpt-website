@@ -189,7 +189,7 @@ Or change the model name to `"model": "openthaigpt/openthaigpt-r1-32b-instruct"`
 
 ## Support
 
-* Official website: [openthaigpt.aieat.or.th](https://openthaigpt.aieat.or.th)
+* Official website: [openthai.aieat.or.th](https://openthai.aieat.or.th)
 * Facebook page: [OpenThaiGPT Group](https://web.facebook.com/groups/openthaigpt)
 * Discord server for discussion and support: [discord.gg/rUTp6dfVUF](https://discord.gg/rUTp6dfVUF)
 * Email: [kobkrit@iapp.co.th](mailto:kobkrit@iapp.co.th)

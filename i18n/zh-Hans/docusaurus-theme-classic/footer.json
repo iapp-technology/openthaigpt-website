@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=iApp Technology linking to https://iapp.co.th"
   },
   "copyright": {
-    "message": "© 2026 泰国人工智能企业家协会 (AIEAT) · OpenThaiGPT — 免费开源的泰语大语言模型",
+    "message": "© 2026 泰国人工智能企业家协会 (AIEAT) · OpenThai（原 OpenThaiGPT）— 免费开源的泰语大语言模型",
     "description": "The footer copyright"
   }
 }
