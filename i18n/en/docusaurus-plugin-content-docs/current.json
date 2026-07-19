@@ -164,7 +164,7 @@
     "description": "The label for the doc item 'OpenThaiGPT 1.5' in sidebar 'docs', linking to the doc previous-versions-and-resources/openthaigpt-1.5"
   },
   "sidebar.docs.doc.📢 ประกาศเปลี่ยนชื่อเป็น OpenThai": {
-    "message": "📢 ประกาศเปลี่ยนชื่อเป็น OpenThai",
+    "message": "📢 Renaming to OpenThai",
     "description": "The label for the doc item '📢 ประกาศเปลี่ยนชื่อเป็น OpenThai' in sidebar 'docs', linking to the doc openthai-rebranding"
   }
 }
