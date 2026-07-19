@@ -130,6 +130,17 @@ div[class^='announcementBar'] a:hover {
   color: var(--ifm-color-emphasis-600);
 }
 
+/* Brand artwork is a transparent PNG with dark navy ink, so it needs its own
+   white plate to stay legible in dark mode. */
+.markdown figure.brand-logo img {
+  max-width: 340px;
+  width: 100%;
+  background: #ffffff;
+  padding: 1.75rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgb(20 34 78 / 18%);
+}
+
 /* GitBook exports use <mark style="color:blue;"> for emphasis */
 .markdown mark {
   background: rgb(36 82 200 / 10%);

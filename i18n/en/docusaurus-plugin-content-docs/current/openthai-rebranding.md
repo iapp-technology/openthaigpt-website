@@ -16,7 +16,7 @@ The **OpenThaiGPT** project is pleased to officially announce that it is renamin
 
 ## The New OpenThai Logo
 
-<figure><img src="/img/openthai-logo-full.png" alt="The new OpenThai logo — a cloud with a brain, wearing glasses"><figcaption>The new OpenThai logo</figcaption></figure>
+<figure class="brand-logo"><img src="/img/openthai-logo-full.png" alt="The new OpenThai logo — a cloud with a brain, wearing glasses"><figcaption>The new OpenThai logo</figcaption></figure>
 
 The new logo depicts **a cloud with a brain, wearing glasses**, conveying the idea of being **"the brain of AI for Thailand Cloud"** — artificial intelligence running on Thailand's own cloud, in order to promote **Thailand's AI Sovereignty** in the years ahead.
 
