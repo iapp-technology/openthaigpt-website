@@ -5,9 +5,7 @@ const sidebars: SidebarsConfig = {
   docs: [
     {type: 'doc', id: "index", label: "🏠 ยินดีต้อนรับสู่ OpenThaiGPT 1.6 และ OpenThaiGPT R1"},
     {type: 'doc', id: "openthairag", label: "📚 OpenThaiRAG"},
-    {type: 'doc', id: "web-demo", label: "🎇 Web Demo!"},
     {type: 'doc', id: "colab-demo", label: "▶️ Colab Demo!"},
-    {type: 'doc', id: "openthaigpt-1.0.0-less-than-8-apr-2024-greater-than", label: "🔥 OpenThaiGPT 1.0.0 <8 Apr 2024>"},
     {type: 'doc', id: "sponsors", label: "❤️ องค์กรที่ร่วมสนับสนุน (Sponsors)"},
     {type: 'doc', id: "volunteer", label: "🤟 ทีมอาสาสมัคร (Volunteer)"},
     {type: 'doc', id: "rules", label: "กฎกติกาความร่วมมือ (Rules)"},
@@ -62,6 +60,7 @@ const sidebars: SidebarsConfig = {
           ],
         },
         {type: 'doc', id: "previous-versions-and-resources/chatgpt-how-to-build-chatgpt", label: "ChatGPT สร้างขึ้นมาได้อย่างไร (How to build ChatGPT?)"},
+        {type: 'doc', id: "openthaigpt-1.0.0-less-than-8-apr-2024-greater-than", label: "🔥 OpenThaiGPT 1.0.0 <8 Apr 2024>"},
         {type: 'doc', id: "previous-versions-and-resources/openthaigpt-version-1.0", label: "OpenThaiGPT Version 1.0"},
         {type: 'doc', id: "previous-versions-and-resources/openthaigpt-1.5", label: "OpenThaiGPT 1.5"},
       ],

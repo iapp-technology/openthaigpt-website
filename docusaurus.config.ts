@@ -85,7 +85,6 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        {to: '/web-demo', label: 'Web Demo', position: 'right'},
         {
           href: 'https://huggingface.co/openthaigpt',
           label: 'Hugging Face',
